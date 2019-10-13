@@ -1,0 +1,11 @@
+<map id="CalculatePressureAltitude" name="CalculatePressureAltitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGStandardAtmosphere.html#ae383eeb62b1743fbe4f24cd0af2c397f" title="Sets the dew point. " alt="" coords="264,5,367,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGStandardAtmosphere.html#ae2ea4c880e365482c78e2b0579fd2922" title="Sets the vapor mass per million of dry air mass units. " alt="" coords="439,107,629,133"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGStandardAtmosphere.html#a0a96927230c095f8684eb0b6cb9de493" title="Sets the partial pressure of water vapor. " alt="" coords="247,56,384,83"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGStandardAtmosphere.html#a503451f97e330a8e00f7516933ccdcb5" title="Sets the relative humidity. " alt="" coords="240,157,391,184"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGStandardAtmosphere.html#aceb723bd1ff84e031529921a02d5c788" title="Convert a geopotential altitude to a geometric altitude. " alt="" coords="246,233,385,260"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGStandardAtmosphere.html#a35789c83cd390c95759e43ac7814e228" title="Returns the temperature gradient to be applied on top of the standard temperature gradient..." alt="" coords="677,107,892,133"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGStandardAtmosphere.html#aabde8cacafe2f2974ef21af2df798f80" title="Returns the pressure at a specified altitude in psf. " alt="" coords="483,309,585,336"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGStandardAtmosphere.html#ab3581d12823ef4d9ac32881ba1afba7f" title="Returns the standard pressure at the specified altitude. " alt="" coords="473,208,595,235"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGStandardAtmosphere.html#a26e4943ecdc77e95c867095c129d2c3d" title="Calculates the density altitude given any temperature or pressure bias. " alt="" coords="445,259,623,285"/>
+</map>

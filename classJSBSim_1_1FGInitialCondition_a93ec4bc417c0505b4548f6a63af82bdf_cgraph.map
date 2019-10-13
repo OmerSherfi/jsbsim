@@ -1,0 +1,11 @@
+<map id="SetTerrainElevationFtIC" name="SetTerrainElevationFtIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="246,17,390,43"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="664,184,823,225"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFDMExec.html#a497ac7ada95a1e9f7bfc0bfa0acf8105" title="Get a pointer to the ground callback currently used. " alt="" coords="239,123,397,164"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGGroundCallback.html#aab054ed34eee5278851f7401bc253b45" title="Set the local terrain radius. " alt="" coords="221,188,415,229"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#a78752db06521e6974fad0089a5e31695" title="Sets the initial Altitude above ground level. " alt="" coords="247,254,389,281"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a05481f3155aa12f45a0a9678c451e777" title="Get the altitude above ground level. " alt="" coords="466,5,613,47"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGLocation.html#a5048a0fcf254414e3bcb205fa8cd676f" title="Get a pointer to the ground callback currently used. " alt="" coords="463,123,616,164"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGLocation.html#ad58b0dd5daece07ab1eb41b9b1268360" title="Get the local terrain radius. " alt="" coords="466,243,613,284"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGInitialCondition.html#adb6fe57c0d1ce470a4d12b8e3054f75b" title="Sets the altitude above sea level initial condition in feet. " alt="" coords="468,309,611,335"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="MergeAttributes" name="MergeAttributes">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGModel.html#ad3575f4ce99fe9f10786880216c7d813" title="Loads this model. " alt="" coords="179,297,349,323"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1Element.html#a62ef63776048ed4abcacbcd03ce97a10" title="Set the name of the file in which the element has been read. " alt="" coords="213,347,315,374"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAerodynamics.html#a5ee98f43a4000cfa1190bdcfe1ff70c4" title="Loads the Aerodynamics model. " alt="" coords="409,5,593,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGAircraft.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the aircraft. " alt="" coords="431,71,570,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGBuoyantForces.html#a5ee98f43a4000cfa1190bdcfe1ff70c4" title="Loads the Buoyant forces model. " alt="" coords="407,136,595,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGExternalReactions.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the external forces from the XML configuration file. " alt="" coords="397,201,604,243"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGFCS.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the Flight Control System. " alt="" coords="422,267,579,294"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGGroundReactions.html#a9df30f127d68cac80b72996975b60653" title="Sets the steering command. " alt="" coords="400,319,601,360"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInputType.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the input directives from an XML file (implement the FGModel interface). " alt="" coords="424,384,577,425"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGModel.html#a1f8684f7724510d5e950b73683222bec" title="Get the output rate for the model in frames. " alt="" coords="405,450,596,477"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGOutput.html#aac25385536a14c4bf0ae6aafa785e218" title="Load the output directives and adds a new output instance to the Output Manager list. " alt="" coords="413,501,589,527"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGPropulsion.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the propulsion system (engine[s] and tank[s]). " alt="" coords="421,552,580,593"/>
+</map>

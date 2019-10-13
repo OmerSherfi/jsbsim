@@ -1,0 +1,51 @@
+<map id="DoTrim" name="DoTrim">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="120,1291,291,1317"/>
+<area shape="rect" id="node50" href="$classJSBSim_1_1FGTrim.html#a4d9a0c94e1c7e1767992625fb091b067" title="Print the results of the trim. " alt="" coords="121,1341,289,1368"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#a5056b9b8090a01fd86bcf3cd464a011c" title="Returns the FGFCS pointer. " alt="" coords="421,5,492,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFCS.html#ae55a0744ff992eb17c4665247eab37de" title="Gets the throttle command. " alt="" coords="716,60,944,87"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFCS.html#a4006dfd22d9f85fe5b1e6cf71f44de12" title="Gets the elevator command. " alt="" coords="358,411,555,437"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGFCS.html#a845048f4c9d6e5e416f668790e4b3841" title="Gets the aileron command. " alt="" coords="358,461,555,488"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGFCS.html#ac81a9148bbc7afb957eaefb0be317bc0" title="Gets the rudder command. " alt="" coords="359,512,554,539"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGFCS.html#a661b578b763141732dfa41dfa775c5ac" title="Gets the pitch trim command. " alt="" coords="339,563,575,589"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGFDMExec.html#ae805f4c2614b9f0a7eac55a1ecf9100f" title="Returns the FGGroundReactions pointer. " alt="" coords="380,613,533,640"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGGroundReactions.html#a45367761e772ee4e0302be7f4defadfb" title="Gets the number of gears. " alt="" coords="356,665,557,706"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGGroundReactions.html#a119458473f7b1fc6e4ba19a4f9e831c6" title="Gets a gear instance. " alt="" coords="356,730,557,771"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGLGear.html#a06b2a0c0e36ad892d536717badb106e2" title="Set the console touchdown reporting feature. " alt="" coords="355,796,558,823"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGFDMExec.html#adf760b99f286a726dde5b47a377fe243" title="Suspends the simulation and sets the delta T to zero. " alt="" coords="383,847,530,873"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGInitialCondition.html#a5ca59972252f91ec091a6026e0e0a990" title="Sets the initial body axis roll rate. " alt="" coords="363,898,550,939"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGInitialCondition.html#aaf941c0c5902e318a224216dda7bdc38" title="Sets the initial body axis pitch rate. " alt="" coords="363,963,550,1005"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGInitialCondition.html#aae17f88a86799403d5a50d5a3a981c60" title="Sets the initial body axis yaw rate. " alt="" coords="363,1029,550,1070"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGFDMExec.html#a1580c9edd024a31c38a13d9b40fa8914" title="Initializes the simulation with initial conditions. " alt="" coords="420,208,493,235"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGFDMExec.html#aa83769769c700eba0b0b82a5c62dbc71" title="This function executes each scheduled model in succession. " alt="" coords="623,208,668,235"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGPropagate.html#a880d85377146ceff97cefdbe9658b7fa" title="Retrieves the body&#45;to&#45;local transformation matrix. " alt="" coords="751,115,909,157"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGAccelerations.html#ad1d9c9c00e369a827c01b7c70a518e48" title="Retrieves the body axis acceleration. " alt="" coords="741,187,919,229"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGPropagate.html#af30dc57cb97afd6acb4c98bf7d2a84aa" title="Retrieves the ECEF&#45;to&#45;body transformation matrix. " alt="" coords="751,261,909,302"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="735,343,925,385"/>
+<area shape="rect" id="node23" href="$classJSBSim_1_1FGInitialCondition.html#a1f46f86792d0e96e63b68b291bf6c52a" title="Gets the initial pitch angle. " alt="" coords="363,1094,550,1135"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGInitialCondition.html#a794a113215d620871cbd6b64514b1261" title="Gets the initial roll angle. " alt="" coords="363,1159,550,1201"/>
+<area shape="rect" id="node25" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="363,1225,550,1266"/>
+<area shape="rect" id="node26" href="$classJSBSim_1_1FGFDMExec.html#a44e88c8853babf4e306376c5d707d95e" title="Returns a pointer to the FGInitialCondition object. " alt="" coords="428,1291,485,1317"/>
+<area shape="rect" id="node27" href="$classJSBSim_1_1FGFCS.html#a5956f8841ee764a75b40f1cc27ab97a9" title="Sets the elevator command. " alt="" coords="359,1341,555,1368"/>
+<area shape="rect" id="node28" href="$classJSBSim_1_1FGFCS.html#a6afc8c6ba357f0d4bf8e7a3210869c13" title="Sets the aileron command. " alt="" coords="359,1392,555,1419"/>
+<area shape="rect" id="node29" href="$classJSBSim_1_1FGFCS.html#a7374588555161088d62c3e0deb229402" title="Sets the rudder command. " alt="" coords="360,1443,553,1469"/>
+<area shape="rect" id="node30" href="$classJSBSim_1_1FGFCS.html#a08dee6eb6c94a092ac0bdd8070086e5e" title="Sets the pitch trim command. " alt="" coords="339,1493,574,1520"/>
+<area shape="rect" id="node31" href="$classJSBSim_1_1FGFCS.html#abcb88ae97820a75597ea0c8393c1cf55" title="Sets the throttle command for the specified engine. " alt="" coords="343,1544,570,1571"/>
+<area shape="rect" id="node32" href="$classJSBSim_1_1FGFDMExec.html#a98bd4c89aad9b3ea9a019fd3247f97d9" title="Returns the FGPropagate pointer. " alt="" coords="401,1595,512,1621"/>
+<area shape="rect" id="node33" href="$classJSBSim_1_1FGFDMExec.html#afb4e8e8c83a51c804cfc50d9d90f65a5" title="Resumes the simulation by resetting delta T to the correct value. " alt="" coords="385,1645,528,1672"/>
+<area shape="rect" id="node34" href="$classJSBSim_1_1FGFDMExec.html#adf55a80c45177d5812a9a6bb635f0430" title="Returns the FGAircraft pointer. " alt="" coords="392,1696,521,1723"/>
+<area shape="rect" id="node35" href="$classJSBSim_1_1FGFDMExec.html#af2d06a737321b234a81a09e9177243c7" title="Returns the FGAccelerations pointer. " alt="" coords="391,1747,522,1773"/>
+<area shape="rect" id="node36" href="$classJSBSim_1_1FGLGear.html#a78b5377a04977f30c5012b277bdb04cc" title="Gets the location of the gear in Body axes. " alt="" coords="359,1798,554,1839"/>
+<area shape="rect" id="node37" href="$classJSBSim_1_1FGLocation.html#a3bb81798aee3a02fe26045eb64d01104" title="Conversion from Local frame coordinates to a location in the earth centered and fixed frame..." alt="" coords="383,1863,530,1905"/>
+<area shape="rect" id="node38" href="$classJSBSim_1_1FGLocation.html#ae629d2b1380ce6c7986cb98191521a21" title="Get terrain contact point information below the current location. " alt="" coords="383,1929,530,1970"/>
+<area shape="rect" id="node39" href="$classJSBSim_1_1FGSurface.html#a02954a62649b9678c766daa29431bc95" title="Gets the surface is a solid flag value. " alt="" coords="381,1994,532,2035"/>
+<area shape="rect" id="node40" href="$classJSBSim_1_1FGInitialCondition.html#adb6fe57c0d1ce470a4d12b8e3054f75b" title="Sets the altitude above sea level initial condition in feet. " alt="" coords="363,2059,550,2101"/>
+<area shape="rect" id="node41" href="$classJSBSim_1_1FGInitialCondition.html#aed6e3b6b8e0d347cde695cfbc65ca55a" title="Gets the initial altitude above sea level. " alt="" coords="363,2125,550,2166"/>
+<area shape="rect" id="node42" href="$classJSBSim_1_1FGAccelerations.html#ad56ecf6d10dbe104143838bf49739196" title="Retrieves the body axis angular acceleration vector. " alt="" coords="367,2190,546,2231"/>
+<area shape="rect" id="node43" href="$classJSBSim_1_1FGColumnVector3.html#acc6f47d7e6daf06690b60f6df00c8264" title="Normalize. " alt="" coords="361,2255,552,2297"/>
+<area shape="rect" id="node44" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="375,2321,539,2362"/>
+<area shape="rect" id="node45" href="$classJSBSim_1_1FGInitialCondition.html#aa21902edee469ef617c9989be99778cb" title="Gets the initial orientation. " alt="" coords="363,2386,550,2427"/>
+<area shape="rect" id="node46" href="$classJSBSim_1_1FGInitialCondition.html#ad137279db0fb4c146f24d3c50c92141c" title="Sets the initial roll angle. " alt="" coords="363,2451,550,2493"/>
+<area shape="rect" id="node47" href="$classJSBSim_1_1FGInitialCondition.html#a877e61169e3cd98de55310eb8c1a1806" title="Sets the initial pitch angle. " alt="" coords="363,2517,550,2558"/>
+<area shape="rect" id="node48" href="$classJSBSim_1_1FGInitialCondition.html#a0ab5b13bb7a8589f9c565ceb3dd96202" title="Sets the initial heading angle. " alt="" coords="363,2582,550,2623"/>
+<area shape="rect" id="node49" href="$classJSBSim_1_1FGTrimAxis.html#a70dd74cc9782fb43f761cd4b581bc622" title="This function iterates through a call to the FGFDMExec::RunIC() function until the desired trimming c..." alt="" coords="369,2648,545,2675"/>
+</map>

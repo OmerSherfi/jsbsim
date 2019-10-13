@@ -1,0 +1,9 @@
+<map id="GetNumGearUnits" name="GetNumGearUnits">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGGroundReactions.html#a9df30f127d68cac80b72996975b60653" title="Sets the steering command. " alt="" coords="233,56,324,83"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGOutputFG.html#a08db7d8e6ed169440a3cf4a8da166360" title="Constructor. " alt="" coords="201,107,356,149"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="201,173,356,214"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="193,239,364,265"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCS.html#a9df30f127d68cac80b72996975b60653" title="Sets the steering command. " alt="" coords="412,5,607,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGGroundReactions.html#a01c66951fa1bf70df8106896acb7d8a1" title="Gets the steering command. " alt="" coords="463,56,555,83"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGFDMExec.html#a8ae88a0b73749057a42c729d2330f5ee" title="Executes trimming in the selected mode. " alt="" coords="430,231,589,273"/>
+</map>

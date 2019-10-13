@@ -1,0 +1,5 @@
+<map id="SetGeodLatitudeDegIC" name="SetGeodLatitudeDegIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a777b283e5014563b30f96b47a9e6220a" title="Sets the initial geodetic latitude. " alt="" coords="221,46,388,73"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a2420bec8cd0ca25c04353050a926a6af" title="Get the longitude. " alt="" coords="442,5,589,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#af0f103b7c1f4c5c8cdceb15a55305fe2" title="Sets the longitude, latitude and the distance above the reference ellipsoid. " alt="" coords="436,71,595,112"/>
+</map>

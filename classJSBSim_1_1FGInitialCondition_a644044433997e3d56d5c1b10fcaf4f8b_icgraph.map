@@ -1,0 +1,13 @@
+<map id="GetAltitudeAGLFtIC" name="GetAltitudeAGLFtIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a93ec4bc417c0505b4548f6a63af82bdf" title="Sets the initial terrain elevation. " alt="" coords="197,157,365,184"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="700,208,753,235"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#ab6f6dae970e40878a34789be7dfcb9a7" title="Sets the initial latitude. " alt="" coords="215,259,347,285"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="641,385,812,412"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#a5c7c88a597829607471730f280b3266b" title="Sets the initial longitude. " alt="" coords="210,335,353,361"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGInitialCondition.html#aa0c548a6f05ffe886f3bef2aad899c28" title="Gets the initial longitude. " alt="" coords="430,5,577,32"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGTrimAxis.html#ad2aa672957b8b63104434e1adcce0951" title="Constructor for Trim Axis class. " alt="" coords="209,513,354,554"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#a68c83023466c7734fea2917175d9325d" title="Sets the flight path angle initial condition in degrees. " alt="" coords="413,157,593,184"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#ad1f01b8c9218fce2c418d2a60593a99c" title="Sets the initial latitude. " alt="" coords="436,259,571,285"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a0ab5b13bb7a8589f9c565ceb3dd96202" title="Sets the initial heading angle. " alt="" coords="454,309,553,336"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGInitialCondition.html#a6fe6c08828d7c74e174ba1ad7f61101e" title="Sets the initial longitude. " alt="" coords="431,360,576,387"/>
+</map>

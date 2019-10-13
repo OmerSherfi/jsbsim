@@ -1,0 +1,5 @@
+<map id="GetWindFpsIC" name="GetWindFpsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="176,5,340,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="163,71,353,112"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#a68770d410d126fdefa594fa33c73dd33" title="Transformation matrix. " alt="" coords="176,136,340,177"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="FGOutputType" name="FGOutputType">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGModel.html" title="Base class for all scheduled JSBSim models. " alt="" coords="343,515,420,541"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGExternalReactions.html" title="Manages the external and/or arbitrary forces and moments. " alt="" coords="675,532,827,559"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropagate.html" title="Models the EOM and integration/propagation of state. " alt="" coords="698,329,803,356"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGAccelerations.html" title="Handles the calculation of accelerations. " alt="" coords="688,179,813,205"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGFCS.html" title="Encapsulates the Flight Control System (FCS) functionality. " alt="" coords="719,431,783,457"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGAtmosphere.html" title="Models an empty, abstract base atmosphere class. " alt="" coords="691,257,810,284"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGBuoyantForces.html" title="Encapsulates the Buoyant forces calculations. " alt="" coords="683,100,818,127"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGGroundReactions.html" title="Manages ground reactions modeling. " alt="" coords="677,957,824,984"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGPropulsion.html" title="Propulsion management class. " alt="" coords="698,784,803,811"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGAircraft.html" title="Encapsulates an Aircraft and its systems. " alt="" coords="708,863,793,889"/>
+<area shape="rect" id="node26" href="$classJSBSim_1_1FGAuxiliary.html" title="Encapsulates various uncategorized scheduled functions. " alt="" coords="705,633,797,660"/>
+<area shape="rect" id="node28" href="$classJSBSim_1_1FGAerodynamics.html" title="Encapsulates the aerodynamic calculations. " alt="" coords="685,380,816,407"/>
+<area shape="rect" id="node31" href="$classJSBSim_1_1FGMassBalance.html" title="Models weight, balance and moment of inertia information. " alt="" coords="689,705,812,732"/>
+<area shape="rect" id="node33" href="$classJSBSim_1_1FGWinds.html" title="Models atmospheric disturbances: winds, gusts, turbulence, downbursts, etc. " alt="" coords="713,583,789,609"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGModelFunctions.html" title="The model functions class provides the capability for loading, storing, and executing arbitrary funct..." alt="" coords="11,464,149,491"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropertyManager.html" title="FGPropertyManager" alt="" coords="5,515,155,541"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFDMExec.html" title="Encapsulates the JSBSim simulation executive. " alt="" coords="31,565,129,592"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="51,837,109,864"/>
+<area shape="rect" id="node9" href="$structJSBSim_1_1FGPropagate_1_1Inputs.html" title="Inputs" alt="" coords="351,292,412,319"/>
+<area shape="rect" id="node11" href="$structJSBSim_1_1FGAccelerations_1_1Inputs.html" title="Inputs" alt="" coords="351,135,412,161"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGPropertyValue.html" title="Represents a property value which can use late binding. " alt="" coords="317,5,445,32"/>
+<area shape="rect" id="node16" href="$structJSBSim_1_1FGAtmosphere_1_1Inputs.html" title="Inputs" alt="" coords="351,213,412,240"/>
+<area shape="rect" id="node18" href="$structJSBSim_1_1FGGasCell_1_1Inputs.html" title="Inputs" alt="" coords="351,56,412,83"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGSurface.html" title="Base class for all surface properties. " alt="" coords="337,959,425,985"/>
+<area shape="rect" id="node21" href="$structJSBSim_1_1FGLGear_1_1Inputs.html" title="Inputs" alt="" coords="351,1009,412,1036"/>
+<area shape="rect" id="node23" href="$structJSBSim_1_1FGEngine_1_1Inputs.html" title="Inputs" alt="" coords="351,819,412,845"/>
+<area shape="rect" id="node25" href="$structJSBSim_1_1FGAircraft_1_1Inputs.html" title="Inputs" alt="" coords="351,897,412,924"/>
+<area shape="rect" id="node27" href="$structJSBSim_1_1FGAuxiliary_1_1Inputs.html" title="Inputs" alt="" coords="351,661,412,688"/>
+<area shape="rect" id="node29" href="$structJSBSim_1_1FGAerodynamics_1_1Inputs.html" title="Inputs" alt="" coords="351,371,412,397"/>
+<area shape="rect" id="node32" href="$structJSBSim_1_1FGMassBalance_1_1Inputs.html" title="Inputs" alt="" coords="351,740,412,767"/>
+<area shape="rect" id="node34" href="$structJSBSim_1_1FGWinds_1_1Inputs.html" title="Inputs" alt="" coords="351,583,412,609"/>
+</map>

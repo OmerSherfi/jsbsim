@@ -1,0 +1,5 @@
+<map id="SetEllipse" name="SetEllipse">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a1fabb78d427d8f826631eb863fccce28" title="Resets the IC data structure to new values. " alt="" coords="137,5,324,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="151,71,310,112"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a122dacd64147e2d1b1db97e719de2989" title="Sets pitch angle initial condition in degrees. " alt="" coords="372,5,559,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ProcessFuelName" name="ProcessFuelName">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="189,5,419,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGTank.html#a579d8ac3dfbf72907d99e091aefade76" title="Gets the contents of the tank. " alt="" coords="253,56,355,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGTank.html#a6b19350f1bbf9525f22785700f6da26f" title="Returns the unusable volume of fuel in the tank. " alt="" coords="227,107,381,133"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTank.html#aa6ac27a3d6694fe4d0ccc83b3693bbfd" title="Sets the volume of unusable fuel in the tank. " alt="" coords="228,157,380,184"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGTank.html#aab6cbbeebb59460c046b7dae4f07abef" title="Gets the tank fill level. " alt="" coords="261,208,347,235"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGTank.html#a6b0d19e54f73934d65cb8c719092e80a" title="Returns the fuel density. " alt="" coords="257,259,351,285"/>
+</map>

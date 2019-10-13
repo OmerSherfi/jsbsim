@@ -1,0 +1,13 @@
+<map id="GetAltitudeAGL" name="GetAltitudeAGL">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="173,221,360,263"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="181,429,352,471"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a93ec4bc417c0505b4548f6a63af82bdf" title="Sets the initial terrain elevation. " alt="" coords="408,5,595,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="643,123,829,164"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#ab6f6dae970e40878a34789be7dfcb9a7" title="Sets the initial latitude. " alt="" coords="408,123,595,164"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#a5c7c88a597829607471730f280b3266b" title="Sets the initial longitude. " alt="" coords="408,188,595,229"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#aa0c548a6f05ffe886f3bef2aad899c28" title="Gets the initial longitude. " alt="" coords="408,253,595,295"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="416,319,587,346"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGTrimAxis.html#ad2aa672957b8b63104434e1adcce0951" title="Constructor for Trim Axis class. " alt="" coords="429,371,574,412"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="657,459,815,500"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGPropagate.html#a304ec0e1cb17dffd5699081e238e555c" title="Returns the current altitude rate. " alt="" coords="422,488,581,529"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SetOutputName" name="SetOutputName">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFDMExec.html#a4de41e7fdd2e6f0ba9f36ef7e1a0f88f" title="Retrieves the Root Directory. " alt="" coords="180,5,339,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGOutputFile.html#a1b21b2ee4c8e52c734cea41681dba720" title="Generate the output. " alt="" coords="234,71,285,98"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputFile.html#af14d632285848c3b58607fbbd34b8e53" title="Opens the file. " alt="" coords="221,122,297,149"/>
+</map>

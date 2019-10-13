@@ -1,0 +1,5 @@
+<map id="GetDistanceTo" name="GetDistanceTo">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAuxiliary.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Auxiliary routines; called by the Executive Can pass in a value indicating if the executive ..." alt="" coords="168,5,344,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a7e110293850bba7cf628406c00fa76ba" title="Transform matrix from the earth centered to local horizontal frame. " alt="" coords="218,56,294,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="392,49,579,90"/>
+</map>

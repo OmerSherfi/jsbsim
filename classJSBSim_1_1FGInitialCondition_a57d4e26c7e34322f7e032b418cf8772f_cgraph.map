@@ -1,0 +1,6 @@
+<map id="SetCrossWindKtsIC" name="SetCrossWindKtsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="209,5,373,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#ab04da5540f142a9e0fc92b9aa56a17a5" title="Retrieves sine of the given euler angle. " alt="" coords="209,71,373,112"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#abb331df77513db8f9d44cb5bbea92b1a" title="Retrieves cosine of the given euler angle. " alt="" coords="209,136,373,177"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="196,201,387,243"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="GetT" name="GetT">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFunction.html#a89b81df0d34de831a1e8c48903d1af64" title="Constructor. " alt="" coords="125,5,272,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#abaa026e39ca6d9c383ccffa8f9bbd936" title="Set calibrated airspeed initial condition in knots. " alt="" coords="340,56,527,97"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="575,348,761,389"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#aab430a890b7eb995d69c0c042fca969a" title="Sets the initial angle of attack. " alt="" coords="105,257,292,299"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#a4e35ac529197f0bbcd476f52eae08a40" title="Sets the initial sideslip angle. " alt="" coords="105,377,292,419"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGInitialCondition.html#a15190adda3d45ca77eca18f6d32a1169" title="Gets the initial total wind velocity in feet/sec. " alt="" coords="105,465,292,507"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGInitialCondition.html#a50250a7632659367bde46ea89f98d6ff" title="Gets the initial mach. " alt="" coords="105,583,292,624"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGInitialCondition.html#a718c0113c9a6d43e7155fea179a24779" title="Gets the initial body velocity. " alt="" coords="105,663,292,704"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGPropagate.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="119,757,278,799"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGQuaternion.html#a71e8adb6c26eae33512bc36aa0d1284a" title="Conversion from Quat to Matrix. " alt="" coords="122,823,275,850"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#a5c958bfa2833878f77a13e857e446534" title="Sets angle of attack initial condition in degrees. " alt="" coords="340,224,527,265"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a4432f5e65443121378434889b2580f07" title="Sets the initial flight path angle. " alt="" coords="340,289,527,331"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#abffe2ecc4a7f992d6e4a8569e374eb5e" title="Sets angle of sideslip initial condition in degrees. " alt="" coords="340,407,527,448"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGInitialCondition.html#ab3fe5bafaa6f202e0659ad6024989a96" title="Gets the initial wind velocity in local frame. " alt="" coords="340,524,527,565"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGInitialCondition.html#ae9bb6d4c75e6bb16b321544f7db79023" title="Gets the initial true velocity. " alt="" coords="340,641,527,683"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="354,707,513,748"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGFDMExec.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="354,772,513,813"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGPropagate.html#ad257da8de9bd36b25735d6577f6dbd21" title="Returns the quaternion that goes from ECEF to Body. " alt="" coords="354,837,513,879"/>
+</map>

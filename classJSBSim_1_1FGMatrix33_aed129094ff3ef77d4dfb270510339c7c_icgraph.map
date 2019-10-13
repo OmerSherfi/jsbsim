@@ -1,0 +1,4 @@
+<map id="Inverse" name="Inverse">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGWinds.html#a5ed79dd94ea2bc253ca214c99f4f77af" title="Sets the direction that the wind is coming from. " alt="" coords="121,5,329,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGWinds.html#a5451fc3dd84f9a88d76c75170509f12d" title="Retrieves the direction that the wind is coming from. " alt="" coords="377,5,587,32"/>
+</map>

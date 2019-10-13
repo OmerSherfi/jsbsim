@@ -1,0 +1,8 @@
+<map id="FGFCSComponent" name="FGFCSComponent">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGJSBBase.html" title="JSBSim Base class. " alt="" coords="925,169,1017,196"/>
+<area shape="rect" id="node3" href="$structJSBSim_1_1FGJSBBase_1_1Message.html" title="JSBSim Message structure. " alt="" coords="222,135,301,161"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,108,64,135"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGModel.html" title="Base class for all scheduled JSBSim models. " alt="" coords="578,263,655,289"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGPropertyManager.html" title="FGPropertyManager" alt="" coords="187,301,336,328"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGFCS.html" title="Encapsulates the Flight Control System (FCS) functionality. " alt="" coords="939,263,1003,289"/>
+</map>

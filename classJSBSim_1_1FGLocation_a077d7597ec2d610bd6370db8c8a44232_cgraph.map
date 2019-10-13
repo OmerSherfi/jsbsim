@@ -1,0 +1,5 @@
+<map id="GetHeadingTo" name="GetHeadingTo">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#a2420bec8cd0ca25c04353050a926a6af" title="Get the longitude. " alt="" coords="171,5,279,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#abe2cd187c5f677dd158e0a3f7cd5588b" title="Get the cosine of Latitude. " alt="" coords="164,56,285,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#a9b73a353041ef6f811af44d830df8e23" title="Get the sine of Latitude. " alt="" coords="166,107,283,133"/>
+</map>

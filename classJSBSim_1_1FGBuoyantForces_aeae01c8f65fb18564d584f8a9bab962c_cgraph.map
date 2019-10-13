@@ -1,0 +1,5 @@
+<map id="GetBuoyancyValues" name="GetBuoyancyValues">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="203,5,432,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGBuoyantForces.html#a0c890ff4e94f34b61494d929891a4d22" title="Gets the total Buoyancy moment vector. " alt="" coords="265,56,370,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGBuoyantForces.html#af07013c97b562ea756cf1a62bcab5367" title="Gets the total Buoyant force vector. " alt="" coords="274,107,361,133"/>
+</map>

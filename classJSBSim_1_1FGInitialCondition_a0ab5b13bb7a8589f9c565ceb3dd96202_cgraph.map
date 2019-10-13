@@ -1,0 +1,9 @@
+<map id="SetPsiRadIC" name="SetPsiRadIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#ab6f6dae970e40878a34789be7dfcb9a7" title="Sets the initial latitude. " alt="" coords="169,122,301,149"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#a777b283e5014563b30f96b47a9e6220a" title="Sets the initial geodetic latitude. " alt="" coords="152,173,319,199"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a5c7c88a597829607471730f280b3266b" title="Sets the initial longitude. " alt="" coords="164,71,307,98"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="368,71,512,98"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#a9c53151a720f02d6a7ddca32e5946745" title="Set the latitude. " alt="" coords="367,173,513,215"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a78752db06521e6974fad0089a5e31695" title="Sets the initial Altitude above ground level. " alt="" coords="369,122,511,149"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGLocation.html#a20809288597c81aac013679a1bc977dd" title="Set the longitude. " alt="" coords="367,5,513,47"/>
+</map>

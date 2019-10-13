@@ -1,0 +1,7 @@
+<map id="GetLatitude" name="GetLatitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAuxiliary.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Auxiliary routines; called by the Executive Can pass in a value indicating if the executive ..." alt="" coords="385,71,561,98"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#ab082c701d852bfa3913d63884c64ba71" title="Gets the initial latitude. " alt="" coords="151,5,337,47"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGLocation.html#a615abebc7359f6a872d60c7680a8039c" title="Get the geodetic distance between the current location and a given location. " alt="" coords="187,122,301,149"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="609,63,796,104"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGLocation.html#a7e110293850bba7cf628406c00fa76ba" title="Transform matrix from the earth centered to local horizontal frame. " alt="" coords="435,122,511,149"/>
+</map>

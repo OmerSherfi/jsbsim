@@ -1,0 +1,51 @@
+<map id="GetPropFeather" name="GetPropFeather">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCS.html#a7906cf94cc521b6e68f071cfd837a45b" title="Retrieves all component names for inclusion in output stream. " alt="" coords="176,1135,341,1162"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCS.html#a257216a6e04e4fd8728cd71ae0234fcb" title="Retrieves all component outputs for inclusion in output stream. " alt="" coords="177,1186,340,1213"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a547ed071cd8c176d3c3da27446a7cce0" title="Returns the simulation delta T. " alt="" coords="425,5,583,47"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="389,71,619,98"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGFCS.html#a845048f4c9d6e5e416f668790e4b3841" title="Gets the aileron command. " alt="" coords="457,122,551,149"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGFCS.html#a6afc8c6ba357f0d4bf8e7a3210869c13" title="Sets the aileron command. " alt="" coords="458,173,550,199"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGFCS.html#a4006dfd22d9f85fe5b1e6cf71f44de12" title="Gets the elevator command. " alt="" coords="457,223,551,250"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGFCS.html#a5956f8841ee764a75b40f1cc27ab97a9" title="Sets the elevator command. " alt="" coords="458,274,550,301"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGFCS.html#ac81a9148bbc7afb957eaefb0be317bc0" title="Gets the rudder command. " alt="" coords="459,325,549,351"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGFCS.html#a7374588555161088d62c3e0deb229402" title="Sets the rudder command. " alt="" coords="459,375,549,402"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGFCS.html#a4a2bb26671d76bcefeff651cbe793aa9" title="Gets the flaps command. " alt="" coords="459,426,549,453"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGFCS.html#a9d83b3a5788903552ecfa796be6cce6a" title="Sets the flaps command. " alt="" coords="460,477,548,503"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGFCS.html#a6a8e090cdfdaf806754b05bc3e6857cd" title="Gets the speedbrake command. " alt="" coords="454,527,554,554"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGFCS.html#a1b6c124070acf18a752ed35ee4d4ea53" title="Sets the speedbrake command. " alt="" coords="455,578,553,605"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGFCS.html#ae87e707c39dea6fab4b69b74dda0be6b" title="Gets the spoiler command. " alt="" coords="454,629,554,655"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGFCS.html#ac57d473561924cef4c3a6b02d93a6f70" title="Sets the spoilers command. " alt="" coords="455,679,553,706"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGFCS.html#a661b578b763141732dfa41dfa775c5ac" title="Gets the pitch trim command. " alt="" coords="438,730,570,757"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGFCS.html#a08dee6eb6c94a092ac0bdd8070086e5e" title="Sets the pitch trim command. " alt="" coords="439,781,569,807"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGFCS.html#adb59e1b8731c3a3dc22f828cd3349cc4" title="Gets the aileron trim command. " alt="" coords="443,831,565,858"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGFCS.html#ad5cb3b7a15f5783653f304553dd22ae2" title="Sets the aileron trim command. " alt="" coords="443,882,565,909"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGFCS.html#a72cf1005120bac4ba083bd834cf11244" title="Gets the rudder trim command. " alt="" coords="443,933,565,959"/>
+<area shape="rect" id="node23" href="$classJSBSim_1_1FGFCS.html#ad793ed80b083bf580a4690db518d1f48" title="Sets the rudder trim command. " alt="" coords="443,983,565,1010"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGFCS.html#a20bc0c74d5bac3e20280dede41de5344" title="Gets the left aileron position. " alt="" coords="457,1034,551,1061"/>
+<area shape="rect" id="node25" href="$classJSBSim_1_1FGFCS.html#a0b4debe7173982d683aefafc29fa249b" title="Sets the left aileron position. " alt="" coords="667,1087,759,1114"/>
+<area shape="rect" id="node26" href="$classJSBSim_1_1FGFCS.html#a1cc626b5b59492c1079edc6ab8fe4595" title="Gets the right aileron position. " alt="" coords="457,1490,551,1517"/>
+<area shape="rect" id="node27" href="$classJSBSim_1_1FGFCS.html#a6e535ee67a756375ff11c0b427e3978c" title="Sets the right aileron position. " alt="" coords="667,1141,760,1167"/>
+<area shape="rect" id="node28" href="$classJSBSim_1_1FGFCS.html#af1b0545f71f414d75b9692079eff8887" title="Gets the elevator position. " alt="" coords="461,1541,547,1567"/>
+<area shape="rect" id="node29" href="$classJSBSim_1_1FGFCS.html#a70569b8490c8eb005a20276d7562c31c" title="Sets the elevator position. " alt="" coords="671,1198,756,1225"/>
+<area shape="rect" id="node30" href="$classJSBSim_1_1FGFCS.html#a96d67a2258dbbf8afa95386835d5033e" title="Gets the rudder position. " alt="" coords="463,1591,545,1618"/>
+<area shape="rect" id="node31" href="$classJSBSim_1_1FGFCS.html#a5e45ae3b89bdd32f4ad78d9b13cf521c" title="Sets the rudder position. " alt="" coords="672,1261,755,1287"/>
+<area shape="rect" id="node32" href="$classJSBSim_1_1FGFCS.html#a39a53fc1d34abb8fa7588a54a9f84ae0" title="Gets the flaps position. " alt="" coords="463,1642,545,1669"/>
+<area shape="rect" id="node33" href="$classJSBSim_1_1FGFCS.html#a90955c41cdba3f9123297e43b325ac95" title="Sets the flaps position. " alt="" coords="673,1337,754,1363"/>
+<area shape="rect" id="node34" href="$classJSBSim_1_1FGFCS.html#acc090cdb5b74d048aaddea3b077d2539" title="Gets the speedbrake position. " alt="" coords="457,1693,551,1719"/>
+<area shape="rect" id="node35" href="$classJSBSim_1_1FGFCS.html#a185450d2a60ed59c2ad1645609765313" title="Sets the speedbrake position. " alt="" coords="667,1389,759,1415"/>
+<area shape="rect" id="node36" href="$classJSBSim_1_1FGFCS.html#a76cd9dbe409d06c1687d27f413452514" title="Gets the spoiler position. " alt="" coords="457,1743,551,1770"/>
+<area shape="rect" id="node37" href="$classJSBSim_1_1FGFCS.html#a96ced18a90c1e1b0ae98602f0a042d68" title="Sets the spoiler position. " alt="" coords="667,1439,759,1466"/>
+<area shape="rect" id="node38" href="$classJSBSim_1_1FGFCS.html#a7daae5b5d487b3046f9936257f0f087a" title="Gets the gear position (0 up, 1 down), defaults to down. " alt="" coords="455,1794,553,1821"/>
+<area shape="rect" id="node39" href="$classJSBSim_1_1FGFCS.html#a140a8869f06b82e9a760fe582f139a2d" title="Set the gear extend/retract position, defaults to down. " alt="" coords="455,1845,553,1871"/>
+<area shape="rect" id="node40" href="$classJSBSim_1_1FGFCS.html#a3f22a7a38bcdface748786a51b40dc95" title="Get the gear extend/retract command. " alt="" coords="451,1895,557,1922"/>
+<area shape="rect" id="node41" href="$classJSBSim_1_1FGFCS.html#afc2a723a1286ef37ad48b2b876b89c11" title="Set the gear extend/retract command, defaults to down. " alt="" coords="451,1287,557,1314"/>
+<area shape="rect" id="node42" href="$classJSBSim_1_1FGFCS.html#a8e3c64f36f134525db9b8623fac1d6df" title="Gets the left brake. " alt="" coords="459,1946,549,1973"/>
+<area shape="rect" id="node43" href="$classJSBSim_1_1FGFCS.html#ac717f29cfe6498e139f37a8cd139ecd7" title="Sets the left brake group. " alt="" coords="460,1997,548,2023"/>
+<area shape="rect" id="node44" href="$classJSBSim_1_1FGFCS.html#adc47fcb6a43e2ffccfe1f1175c531081" title="Gets the right brake. " alt="" coords="459,2047,549,2074"/>
+<area shape="rect" id="node45" href="$classJSBSim_1_1FGFCS.html#a73180963bad52579d162d024487c9f36" title="Sets the right brake group. " alt="" coords="459,2098,549,2125"/>
+<area shape="rect" id="node46" href="$classJSBSim_1_1FGFCS.html#a799083d7354eb2e6726e900c9dd8425e" title="Gets the center brake. " alt="" coords="459,2149,549,2175"/>
+<area shape="rect" id="node47" href="$classJSBSim_1_1FGFCS.html#ad0833f947e79b041703133d7492cb277" title="Sets the center brake group. " alt="" coords="459,2199,549,2226"/>
+<area shape="rect" id="node48" href="$classJSBSim_1_1FGFCS.html#a12c8ac0823697be08d2c401c5bb67cab" title="Gets the tailhook position (0 up, 1 down) " alt="" coords="445,2250,563,2277"/>
+<area shape="rect" id="node49" href="$classJSBSim_1_1FGFCS.html#a9d68a6444ea45b2ae7f41fd989a0bb02" title="Set the tailhook position. " alt="" coords="445,2301,563,2327"/>
+<area shape="rect" id="node50" href="$classJSBSim_1_1FGFCS.html#ac444ab6dc9f2f6bbd7a1de247b08d6a2" title="Gets the wing fold position (0 unfolded, 1 folded) " alt="" coords="442,2351,566,2378"/>
+</map>

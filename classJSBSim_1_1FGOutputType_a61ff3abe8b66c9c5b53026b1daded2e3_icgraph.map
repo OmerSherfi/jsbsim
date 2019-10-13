@@ -1,0 +1,9 @@
+<map id="SetRateHz" name="SetRateHz">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutput.html#a73535c48fc7e09497439e8fb05bea07f" title="Load the output directives and adds a new output instance to the Output Manager list. " alt="" coords="257,5,433,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGOutputType.html#a6f1370cfe2ed983e54af0720b6c0b3d5" title="Set the idx for this output instance. " alt="" coords="144,56,207,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputType.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file (implement the FGModel interface). " alt="" coords="149,115,202,141"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGOutput.html#aac25385536a14c4bf0ae6aafa785e218" title="Load the output directives and adds a new output instance to the Output Manager list. " alt="" coords="257,56,433,83"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGOutputFile.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="267,107,424,149"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGOutputSocket.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="255,173,436,214"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGOutputType.html#a9c97cfd0e6ca8102462781e03653c18c" title="Get the name identifier to which the output will be directed. " alt="" coords="281,239,409,265"/>
+</map>

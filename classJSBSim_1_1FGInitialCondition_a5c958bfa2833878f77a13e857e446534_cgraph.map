@@ -1,0 +1,10 @@
+<map id="SetAlphaDegIC" name="SetAlphaDegIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#aab430a890b7eb995d69c0c042fca969a" title="Sets the initial angle of attack. " alt="" coords="172,209,288,235"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="349,5,513,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#adf79ff2ea1194b5f50fe281d04db8630" title="Retrieves the Euler angles. " alt="" coords="349,71,513,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#abb331df77513db8f9d44cb5bbea92b1a" title="Retrieves cosine of the given euler angle. " alt="" coords="349,136,513,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGQuaternion.html#ab04da5540f142a9e0fc92b9aa56a17a5" title="Retrieves sine of the given euler angle. " alt="" coords="349,201,513,243"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGColumnVector3.html#acc6f47d7e6daf06690b60f6df00c8264" title="Normalize. " alt="" coords="336,267,527,308"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGQuaternion.html#a68770d410d126fdefa594fa33c73dd33" title="Transformation matrix. " alt="" coords="349,332,513,373"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGMatrix33.html#aad49f19d4d1877d4d9b329d05849229f" title="Transposed matrix. " alt="" coords="357,397,505,439"/>
+</map>

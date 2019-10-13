@@ -1,0 +1,4 @@
+<map id="SetOutputName" name="SetOutputName">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputFile.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="180,5,233,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGOutputFile.html#a9550bcc440501502fd61409e7342a0c7" title="Destructor : closes the file. " alt="" coords="281,5,396,32"/>
+</map>

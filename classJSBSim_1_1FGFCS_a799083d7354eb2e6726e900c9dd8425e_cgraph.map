@@ -1,0 +1,15 @@
+<map id="GetCBrake" name="GetCBrake">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCS.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the Flight Control System. " alt="" coords="144,294,197,321"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1Element.html#a593368e537ee0e496b4665b0b108c2a6" title="Retrieves the element name. " alt="" coords="521,18,719,45"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGModel.html#ad3575f4ce99fe9f10786880216c7d813" title="Loads this model. " alt="" coords="269,117,440,143"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1Element.html#aa5a4c979e8031643e403f29ba050c988" title="Return a string that contains a description of the location where the current XML element was read fr..." alt="" coords="520,74,720,101"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1Element.html#a0290668d182e1035b626b551f2b552e7" title="Searches for a specified element. " alt="" coords="513,135,727,162"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1Element.html#ac49b58ae4fd6170ac11c2ed21d882666" title="Searches for the next element as specified. " alt="" coords="524,208,716,249"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1Element.html#a4fd4cb4d88046523b2cf729bf847e0e2" title="Retrieves an attribute. " alt="" coords="512,279,728,320"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1Element.html#a30a269bd930d31646341ba15787281e3" title="Retrieves an attribute value as a double precision real number. " alt="" coords="512,355,728,396"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1Element.html#a3e316013e56ca6a0794dea925889d302" title="Returns a pointer to the element requested by index. " alt="" coords="248,421,461,447"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGFCSChannel.html#a60ce14a1cfe444b73f07ae1234a069e2" title="Adds a component to a channel. " alt="" coords="253,471,456,498"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1Element.html#ac5c2e3334b384afca061f0bf965dc864" title="Determines if an element has the supplied attribute. " alt="" coords="245,319,464,346"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1Element.html#a8a0a7904dd0ec4b82aa113520456b8be" title="Stores an attribute belonging to this element. " alt="" coords="245,522,464,549"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1Element.html#ae7a0029049e0ee746bb347bf6682075a" title="Returns a pointer to the next element in the list. " alt="" coords="259,573,450,615"/>
+</map>

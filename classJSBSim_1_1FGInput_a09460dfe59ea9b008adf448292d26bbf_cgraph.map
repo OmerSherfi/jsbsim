@@ -1,0 +1,7 @@
+<map id="Load" name="Load">
+<area shape="rect" id="node2" href="$classJSBSim_1_1Element.html#a4fd4cb4d88046523b2cf729bf847e0e2" title="Retrieves an attribute. " alt="" coords="107,5,323,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1Element.html#aa5a4c979e8031643e403f29ba050c988" title="Return a string that contains a description of the location where the current XML element was read fr..." alt="" coords="589,115,789,142"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInputType.html#a6f1370cfe2ed983e54af0720b6c0b3d5" title="Set the idx for this input instance. " alt="" coords="138,123,291,164"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInputType.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the input directives from an XML file (implement the FGModel interface). " alt="" coords="138,188,291,229"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGModel.html#ad3575f4ce99fe9f10786880216c7d813" title="Loads this model. " alt="" coords="371,158,541,185"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SetLatitudeDegIC" name="SetLatitudeDegIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#ab6f6dae970e40878a34789be7dfcb9a7" title="Sets the initial latitude. " alt="" coords="188,64,320,91"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="369,5,513,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#a9c53151a720f02d6a7ddca32e5946745" title="Set the latitude. " alt="" coords="368,57,515,98"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a78752db06521e6974fad0089a5e31695" title="Sets the initial Altitude above ground level. " alt="" coords="370,123,513,149"/>
+</map>

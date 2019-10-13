@@ -1,0 +1,8 @@
+<map id="GetGroundCallback" name="GetGroundCallback">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFDMExec.html#a497ac7ada95a1e9f7bfc0bfa0acf8105" title="Get a pointer to the ground callback currently used. " alt="" coords="199,136,357,177"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#a84bc4234d96a91bce12201e7c0a6e3f0" title="Sets the current sim time. " alt="" coords="419,5,578,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a9238b5d4e99187a0ba3db7334d459caa" title="Increments the simulation time if not in Holding mode. " alt="" coords="419,71,578,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a93ec4bc417c0505b4548f6a63af82bdf" title="Sets the initial terrain elevation. " alt="" coords="405,136,592,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="640,165,827,207"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGPropagate.html#a19ebb4cbb08e4d1bde3a408bcc2f1795" title="Returns the current altitude above sea level. " alt="" coords="419,253,578,295"/>
+</map>

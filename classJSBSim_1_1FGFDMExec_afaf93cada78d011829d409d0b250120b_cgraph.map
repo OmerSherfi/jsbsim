@@ -1,0 +1,13 @@
+<map id="RunIC" name="RunIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFDMExec.html#adf760b99f286a726dde5b47a377fe243" title="Suspends the simulation and sets the delta T to zero. " alt="" coords="131,17,277,44"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#a1580c9edd024a31c38a13d9b40fa8914" title="Initializes the simulation with initial conditions. " alt="" coords="167,68,241,95"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGFDMExec.html#aa83769769c700eba0b0b82a5c62dbc71" title="This function executes each scheduled model in succession. " alt="" coords="432,123,477,149"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGFDMExec.html#afb4e8e8c83a51c804cfc50d9d90f65a5" title="Resumes the simulation by resetting delta T to the correct value. " alt="" coords="133,169,275,196"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropulsion.html#a79c53af47b21d24d9341bab5f7c7954c" title="Retrieves the number of engines defined for the aircraft. " alt="" coords="375,242,534,283"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#acf4f40d1f6f0db54c978e35480f7c605" title="Is an engine running ? " alt="" coords="111,271,297,313"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGPropulsion.html#ac7ae9e5bb74b9fd27bd191d81e8749b2" title="Sets up the engines as running. " alt="" coords="125,337,283,378"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGWinds.html#a9992c316eabb367ea732ac61acde77be" title="Sets the wind components in NED frame. " alt="" coords="345,5,564,32"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#af9ffe1a00b0aaf79291029b11e359036" title="Gets the initial wind velocity in the NED local frame. " alt="" coords="361,57,548,98"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGPropulsion.html#acc30086aa46f34446c720a5171fca070" title="Retrieves an engine object pointer from the list of engines. " alt="" coords="375,322,534,363"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGPropulsion.html#a4466fe1136071662b57a8b91253d9e5f" title="Loops the engines until thrust output steady (used for trimming) " alt="" coords="375,387,534,429"/>
+</map>

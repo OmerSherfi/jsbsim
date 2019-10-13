@@ -1,0 +1,14 @@
+<map id="SetVtrueFpsIC" name="SetVtrueFpsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a13d4b8fd402f41dcf6eef8ed0c11f435" title="Set equivalent airspeed initial condition in knots. " alt="" coords="625,25,776,51"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="839,227,892,254"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#a4b214047e1c25d93b9d706621f32f6ce" title="Set mach initial condition. " alt="" coords="432,177,523,203"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#abaa026e39ca6d9c383ccffa8f9bbd936" title="Set calibrated airspeed initial condition in knots. " alt="" coords="627,227,775,254"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#adb6fe57c0d1ce470a4d12b8e3054f75b" title="Sets the altitude above sea level initial condition in feet. " alt="" coords="184,329,327,355"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGInitialCondition.html#a4ccfd2afe9f63466cf32f2ffe96fbfc0" title="Set true airspeed initial condition in knots. " alt="" coords="200,406,311,433"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGInitialCondition.html#a31e8949f7114da9863920387e9fa7682" title="Gets the initial Earth position angle. " alt="" coords="167,511,344,538"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a6f3cf9777dfc1bbd1bf43925c8e617d7" title="Set ground speed initial condition in knots. " alt="" coords="635,177,766,203"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#a78752db06521e6974fad0089a5e31695" title="Sets the initial Altitude above ground level. " alt="" coords="406,329,549,355"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#a68c83023466c7734fea2917175d9325d" title="Sets the flight path angle initial condition in degrees. " alt="" coords="611,379,791,406"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="392,430,563,457"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="398,532,557,573"/>
+</map>

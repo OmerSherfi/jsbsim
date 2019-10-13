@@ -1,0 +1,10 @@
+<map id="FGAccelerations" name="FGAccelerations">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGModel.html" title="Base class for all scheduled JSBSim models. " alt="" coords="359,107,436,133"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGModelFunctions.html" title="The model functions class provides the capability for loading, storing, and executing arbitrary funct..." alt="" coords="32,5,169,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropertyManager.html" title="FGPropertyManager" alt="" coords="26,56,175,83"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFDMExec.html" title="Encapsulates the JSBSim simulation executive. " alt="" coords="52,107,149,133"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="71,157,130,184"/>
+<area shape="rect" id="node7" href="$structJSBSim_1_1FGAccelerations_1_1Inputs.html" title="Inputs" alt="" coords="367,371,428,397"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGColumnVector3.html" title="This class implements a 3 element column vector. " alt="" coords="32,340,169,367"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGMatrix33.html" title="Handles matrix math operations. " alt="" coords="53,513,148,540"/>
+</map>

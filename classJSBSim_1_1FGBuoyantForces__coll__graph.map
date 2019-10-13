@@ -1,0 +1,8 @@
+<map id="FGBuoyantForces" name="FGBuoyantForces">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGModel.html" title="Base class for all scheduled JSBSim models. " alt="" coords="277,95,354,121"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGModelFunctions.html" title="The model functions class provides the capability for loading, storing, and executing arbitrary funct..." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropertyManager.html" title="FGPropertyManager" alt="" coords="167,5,317,32"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFDMExec.html" title="Encapsulates the JSBSim simulation executive. " alt="" coords="341,5,439,32"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="463,5,522,32"/>
+<area shape="rect" id="node7" href="$structJSBSim_1_1FGGasCell_1_1Inputs.html" title="Inputs" alt="" coords="378,95,439,121"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SetGroundCallback" name="SetGroundCallback">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#a1fa93dbf90bcff52c75755640835e7d3" title="Sets the ground callback pointer. " alt="" coords="197,5,349,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#ac6cf940d8ffc0907ffb2be6bcb3f88db" title="Loads an aircraft model. " alt="" coords="652,97,743,123"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a3a5c816fd2db9ddca6c3f209f2b456d0" title="Loads a script. " alt="" coords="228,122,319,149"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGScript.html#affd5971385d780aef57a6f7a9645f9f7" title="Loads a script to drive JSBSim (usually in standalone mode). " alt="" coords="397,122,604,149"/>
+</map>

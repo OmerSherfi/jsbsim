@@ -1,0 +1,6 @@
+<map id="GetThrottleCmd" name="GetThrottleCmd">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCS.html#ae87e707c39dea6fab4b69b74dda0be6b" title="Gets the spoiler command. " alt="" coords="219,5,319,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#aa83769769c700eba0b0b82a5c62dbc71" title="This function executes each scheduled model in succession. " alt="" coords="177,56,360,83"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="408,81,579,108"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCS.html#a257216a6e04e4fd8728cd71ae0234fcb" title="Retrieves all component outputs for inclusion in output stream. " alt="" coords="412,5,575,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GetStdTemperatureRatio" name="GetStdTemperatureRatio">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGStandardAtmosphere.html#a1eb8fafb77f1d00679eee2538837151c" title="Returns the standard temperature in degrees Rankine at a specified altitude. " alt="" coords="233,5,381,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGStandardAtmosphere.html#abf48220ca0c338db70ce75caaf591a91" title="Convert a geometric altitude to a geopotential altitude. " alt="" coords="429,5,583,32"/>
+</map>

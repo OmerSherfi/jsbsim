@@ -1,0 +1,8 @@
+<map id="GetAltitudeASLmeters" name="GetAltitudeASLmeters">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropagate.html#a19ebb4cbb08e4d1bde3a408bcc2f1795" title="Returns the current altitude above sea level. " alt="" coords="219,143,337,170"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="403,5,561,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#ae629d2b1380ce6c7986cb98191521a21" title="Get terrain contact point information below the current location. " alt="" coords="409,71,555,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGLocation.html#ad58b0dd5daece07ab1eb41b9b1268360" title="Get the local terrain radius. " alt="" coords="409,136,555,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGFDMExec.html#a497ac7ada95a1e9f7bfc0bfa0acf8105" title="Get a pointer to the ground callback currently used. " alt="" coords="403,201,561,243"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGGroundCallback.html#aab054ed34eee5278851f7401bc253b45" title="Set the local terrain radius. " alt="" coords="385,267,579,308"/>
+</map>

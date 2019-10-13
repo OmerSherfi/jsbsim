@@ -1,0 +1,795 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>FGFDMExec &#8212; JSBSim 1.1.0.dev1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FGGroundReactions" href="FGGroundReactions.html" />
+    <link rel="prev" title="FGEngine" href="FGEngine.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo_JSBSIM_globe.png" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="index.html">JSBSim</a></h1>
+
+
+
+<p class="blurb">An open source flight dynamics & control software library</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=JSBSim-Team&repo=jsbsim&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://travis-ci.org/JSBSim-Team/jsbsim">
+    <img
+        alt="https://secure.travis-ci.org/JSBSim-Team/jsbsim.svg?branch=master"
+        src="https://secure.travis-ci.org/JSBSim-Team/jsbsim.svg?branch=master"
+    />
+</a>
+</p>
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="FGAerodynamics.html">FGAerodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGAircraft.html">FGAircraft</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGAtmosphere.html">FGAtmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGAuxiliary.html">FGAuxiliary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGEngine.html">FGEngine</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FGFDMExec</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGGroundReactions.html">FGGroundReactions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGJSBBase.html">FGJSBBase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGLGear.html">FGLGear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGMassBalance.html">FGMassBalance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGPropagate.html">FGPropagate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGPropertyManager.html">FGPropertyManager</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FGPropulsion.html">FGPropulsion</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="FGEngine.html" title="previous chapter">FGEngine</a></li>
+      <li>Next: <a href="FGGroundReactions.html" title="next chapter">FGGroundReactions</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="fgfdmexec">
+<span id="id1"></span><h1>FGFDMExec<a class="headerlink" href="#fgfdmexec" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="jsbsim.FGFDMExec">
+<em class="property">class </em><code class="sig-prename descclassname">jsbsim.</code><code class="sig-name descname">FGFDMExec</code><a class="headerlink" href="#jsbsim.FGFDMExec" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encapsulates the JSBSim simulation executive.</p>
+<p>This class is the executive class through which all other simulation
+classes are instantiated, initialized, and run. When integrated with
+FlightGear (or other flight simulator) this class is typically
+instantiated by an interface class on the simulator side.</p>
+<p>At the time of simulation initialization, the interface class creates an
+instance of this executive class. The executive is subsequently directed
+to load the chosen aircraft specification file:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>fdmex = new FGFDMExec( ... );
+result = fdmex-&gt;LoadModel( ... );
+</pre></div>
+</div>
+<p>When an aircraft model is loaded, the config file is parsed and for each
+of the sections of the config file (propulsion, flight control, etc.)
+the corresponding Load() method is called (e.g. FGFCS::Load()).</p>
+<p>Subsequent to the creation of the executive and loading of the model,
+initialization is performed. Initialization involves copying control
+inputs into the appropriate JSBSim data storage locations, configuring
+it for the set of user supplied initial conditions, and then copying
+state variables from JSBSim. The state variables are used to drive the
+instrument displays and to place the vehicle model in world space for
+visual rendering:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>copy_to_JSBsim(); // copy control inputs to JSBSim
+fdmex-&gt;RunIC(); // loop JSBSim once w/o integrating
+copy_from_JSBsim(); // update the bus
+</pre></div>
+</div>
+<p>Once initialization is complete, cyclic execution proceeds:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>copy_to_JSBsim(); // copy control inputs to JSBSim
+fdmex-&gt;Run(); // execute JSBSim
+copy_from_JSBsim(); // update the bus
+</pre></div>
+</div>
+<p>JSBSim can be used in a standalone mode by creating a compact stub
+program that effectively performs the same progression of steps as
+outlined above for the integrated version, but with two exceptions.
+First, the copy_to_JSBSim() and copy_from_JSBSim() functions are not
+used because the control inputs are handled directly by the scripting
+facilities and outputs are handled by the output (data logging) class.
+Second, the name of a script file can be supplied to the stub program.
+Scripting (see FGScript) provides a way to supply command inputs to the
+simulation:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>FDMExec = new JSBSim::FGFDMExec();
+FDMExec-&gt;LoadScript( ScriptName ); // the script loads the aircraft and ICs
+result = FDMExec-&gt;Run();
+while (result) { // cyclic execution
+  result = FDMExec-&gt;Run(); // execute JSBSim
+}
+</pre></div>
+</div>
+<p>The standalone mode has been useful for verifying changes before
+committing updates to the source code repository. It is also useful for
+running sets of tests that reveal some aspects of simulated aircraft
+performance, such as range, time-to-climb, takeoff distance, etc.</p>
+<p class="rubric">JSBSim Debugging Directives</p>
+<p>This describes to any interested entity the debug level requested by
+setting the JSBSIM_DEBUG environment variable. The bitmasked value
+choices are as follows:</p>
+<ul class="simple">
+<li><p><strong>unset</strong>: In this case (the default) JSBSim would only print out the
+normally expected messages, essentially echoing the config files as
+they are read. If the environment variable is not set, debug_lvl is
+set to 1 internally</p></li>
+<li><p><strong>0</strong>: This requests JSBSim not to output any messages whatsoever</p></li>
+<li><p><strong>1</strong>: This value explicity requests the normal JSBSim startup
+messages</p></li>
+<li><p><strong>2</strong>: This value asks for a message to be printed out when a class is
+instantiated</p></li>
+<li><p><strong>4</strong>: When this value is set, a message is displayed when a FGModel
+object executes its Run() method</p></li>
+<li><p><strong>8</strong>: When this value is set, various runtime state variables are
+printed out periodically</p></li>
+<li><p><strong>16</strong>: When set various parameters are sanity checked and a message
+is printed out when they go out of bounds</p></li>
+</ul>
+<p class="rubric">Properties</p>
+<ul class="simple">
+<li><p><strong>simulator/do_trim</strong> (write only) Can be set to the integer
+equivalent to one of tLongitudinal (0), tFull (1), tGround (2),
+tPullup (3), tCustom (4), tTurn (5). Setting this to a legal value
+(such as by a script) causes a trim to be performed. This property
+actually maps toa function call of DoTrim().</p></li>
+</ul>
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.check_incremental_hold">
+<code class="sig-name descname">check_incremental_hold</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.check_incremental_hold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if required to hold afer increment.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.disable_output">
+<code class="sig-name descname">disable_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.disable_output" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disables data logging to all outputs.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.do_trim">
+<code class="sig-name descname">do_trim</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.do_trim" title="Permalink to this definition">¶</a></dt>
+<dd><p>Executes trimming in the selected mode.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>mode</strong> – Specifies how to trim: * tLongitudinal=0 * tFull *
+tGround * tPullup * tCustom * tTurn * tNone</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.enable_increment_then_hold">
+<code class="sig-name descname">enable_increment_then_hold</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.enable_increment_then_hold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Turn on hold after increment.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.enable_output">
+<code class="sig-name descname">enable_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.enable_output" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enables data logging to all outputs.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_aerodynamics">
+<code class="sig-name descname">get_aerodynamics</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_aerodynamics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_aircraft">
+<code class="sig-name descname">get_aircraft</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_aircraft" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_aircraft_path">
+<code class="sig-name descname">get_aircraft_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_aircraft_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the aircraft path.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_atmosphere">
+<code class="sig-name descname">get_atmosphere</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_atmosphere" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_auxiliary">
+<code class="sig-name descname">get_auxiliary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_auxiliary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_debug_level">
+<code class="sig-name descname">get_debug_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_debug_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the current debug level setting.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_delta_t">
+<code class="sig-name descname">get_delta_t</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_delta_t" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the simulation delta T.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_engine_path">
+<code class="sig-name descname">get_engine_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_engine_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the engine path.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_full_aircraft_path">
+<code class="sig-name descname">get_full_aircraft_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_full_aircraft_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the full aircraft path name.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_ground_reactions">
+<code class="sig-name descname">get_ground_reactions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_ground_reactions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_mass_balance">
+<code class="sig-name descname">get_mass_balance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_mass_balance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_model_name">
+<code class="sig-name descname">get_model_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_model_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the model name.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_output_filename">
+<code class="sig-name descname">get_output_filename</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_output_filename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the current output filename.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> – index of file</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the name of the output file for the output specified by the
+flight model. If none is specified, the empty string is
+returned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_propagate">
+<code class="sig-name descname">get_propagate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_propagate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_property_catalog">
+<code class="sig-name descname">get_property_catalog</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_property_catalog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the property catalog as a dictionary.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_property_manager">
+<code class="sig-name descname">get_property_manager</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_property_manager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a pointer to the property manager object.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_property_value">
+<code class="sig-name descname">get_property_value</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_property_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the value of a property.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>property</strong> – the name of the property</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the value of the specified property</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_propulsion">
+<code class="sig-name descname">get_propulsion</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_propulsion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_propulsion_tank_report">
+<code class="sig-name descname">get_propulsion_tank_report</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_propulsion_tank_report" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_root_dir">
+<code class="sig-name descname">get_root_dir</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_root_dir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the Root Directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the string representing the root (base) JSBSim directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_sim_time">
+<code class="sig-name descname">get_sim_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_sim_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the cumulative simulation time in seconds.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_systems_path">
+<code class="sig-name descname">get_systems_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_systems_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the systems path.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.get_trim_status">
+<code class="sig-name descname">get_trim_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.get_trim_status" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.hold">
+<code class="sig-name descname">hold</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.hold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pauses execution by preventing time from incrementing.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.holding">
+<code class="sig-name descname">holding</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.holding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns true if the simulation is Holding (i.e. simulation time is not moving).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.incr_time">
+<code class="sig-name descname">incr_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.incr_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increments the simulation time if not in Holding mode.</p>
+<p>The Frame counter is also incremented.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the new simulation time.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.integration_suspended">
+<code class="sig-name descname">integration_suspended</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.integration_suspended" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the simulation suspension state.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>true if suspended, false if executing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.load_model">
+<code class="sig-name descname">load_model</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads an aircraft model.</p>
+<p>The paths to the aircraft and engine config file directories must be
+set prior to calling this. See below.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – the name of the aircraft model itself. This file will
+be looked for in the directory specified in the
+AircraftPath variable, and in turn under the directory
+with the same name as the model. For instance:
+“aircraft/x15/x15.xml”</p></li>
+<li><p><strong>addModelToPath</strong> – set to true to add the model name to the
+AircraftPath, defaults to true</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>true if successful</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.load_model_with_paths">
+<code class="sig-name descname">load_model_with_paths</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.load_model_with_paths" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads an aircraft model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>AircraftPath</strong> – path to the aircraft/ directory. For instance:
+“aircraft”. Under aircraft, then, would be
+directories for various modeled aircraft such
+as C172/, x15/, etc.</p></li>
+<li><p><strong>EnginePath</strong> – path to the directory under which engine config
+files are kept, for instance “engine”</p></li>
+<li><p><strong>SystemsPath</strong> – path to the directory under which systems config
+files are kept, for instance “systems”</p></li>
+<li><p><strong>model</strong> – the name of the aircraft model itself. This file will
+be looked for in the directory specified in the
+AircraftPath variable, and in turn under the directory
+with the same name as the model. For instance:
+“aircraft/x15/x15.xml”</p></li>
+<li><p><strong>addModelToPath</strong> – set to true to add the model name to the
+AircraftPath, defaults to true</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>true if successful</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.load_script">
+<code class="sig-name descname">load_script</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.load_script" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads a script.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>Script</strong> – The full path name and file name for the script to be
+loaded.</p></li>
+<li><p><strong>deltaT</strong> – The simulation integration step size, if given. If no
+value is supplied then 0.0 is used and the value is
+expected to be supplied in the script file itself.</p></li>
+<li><p><strong>initfile</strong> – The initialization file that will override the
+initialization file specified in the script file.
+If no file name is given on the command line, the
+file specified in the script will be used. If an
+initialization file is not given in either place,
+an error will result.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>true if successfully loads; false otherwise.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.print_property_catalog">
+<code class="sig-name descname">print_property_catalog</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.print_property_catalog" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.print_simulation_configuration">
+<code class="sig-name descname">print_simulation_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.print_simulation_configuration" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.query_property_catalog">
+<code class="sig-name descname">query_property_catalog</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.query_property_catalog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves property or properties matching the supplied string.</p>
+<p>A string is returned that contains a carriage return delimited list
+of all strings in the property catalog that matches the supplied
+check string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>check</strong> – The string to search for in the property catalog.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the carriage-return-delimited string containing all
+matching strings in the catalog.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.reset_to_initial_conditions">
+<code class="sig-name descname">reset_to_initial_conditions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.reset_to_initial_conditions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets the initial conditions object and prepares the simulation to run again.</p>
+<p>If mode is set to 1 the output instances will take special actions
+such as closing the current output file and open a new one with a
+different name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>mode</strong> – Sets the reset mode.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.resume">
+<code class="sig-name descname">resume</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.resume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resumes execution from a “Hold”.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.resume_integration">
+<code class="sig-name descname">resume_integration</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.resume_integration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resumes the simulation by resetting delta T to the correct value.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function executes each scheduled model in succession.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>true if successful, false if sim should be ended</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.run_ic">
+<code class="sig-name descname">run_ic</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.run_ic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initializes the sim from the initial condition object and executes each scheduled model without integrating i.e.</p>
+<p>dt=0.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>true if successful</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_aircraft_path">
+<code class="sig-name descname">set_aircraft_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_aircraft_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the path to the aircraft config file directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path to the aircraft directory. For instance:
+“aircraft”. Under aircraft, then, would be directories
+for various modeled aircraft such as C172/, x15/, etc.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_debug_level">
+<code class="sig-name descname">set_debug_level</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_debug_level" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the debug level.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_dt">
+<code class="sig-name descname">set_dt</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_dt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the integration time step for the simulation executive.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>delta_t</strong> – the time step in seconds.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_engine_path">
+<code class="sig-name descname">set_engine_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_engine_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the path to the engine config file directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path to the directory under which engine config files
+are kept, for instance “engine”</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_logging_rate">
+<code class="sig-name descname">set_logging_rate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_logging_rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the logging rate in Hz for all output objects (if any).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_output_directive">
+<code class="sig-name descname">set_output_directive</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_output_directive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the output (logging) mechanism for this run.</p>
+<p>Calling this function passes the name of an output directives file
+to the FGOutput object associated with this run. The call to this
+function should be made prior to loading an aircraft model. This
+call results in an FGOutput object being built as the first Output
+object in the FDMExec-managed list of Output objects that may be
+created for an aircraft model. If this call is made after an
+aircraft model is loaded, there is no effect. Any Output objects
+added by the aircraft model itself (in an &lt;output&gt; element) will be
+added after this one. Care should be taken not to refer to the same
+file name. An output directives file contains an &lt;output&gt; &lt;/output&gt;
+element, within which should be specified the parameters or
+parameter groups that should be logged.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>fname</strong> – the filename of an output directives file.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_output_filename">
+<code class="sig-name descname">set_output_filename</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_output_filename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets (or overrides) the output filename.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>n</strong> – index of file</p></li>
+<li><p><strong>fname</strong> – the name of the file to output data to</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>true if successful, false if there is no output specified
+for the flight model</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_property_value">
+<code class="sig-name descname">set_property_value</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_property_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a property value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>property</strong> – the property to be set</p></li>
+<li><p><strong>value</strong> – the value to set the property to</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_root_dir">
+<code class="sig-name descname">set_root_dir</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_root_dir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the root directory where JSBSim starts looking for its system directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>rootDir</strong> – the string containing the root directory.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_sim_time">
+<code class="sig-name descname">set_sim_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_sim_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the current sim time.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>cur_time</strong> – the current time</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the current simulation time.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_systems_path">
+<code class="sig-name descname">set_systems_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_systems_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the path to the systems config file directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path to the directory under which systems config files
+are kept, for instance “systems”</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.set_trim_status">
+<code class="sig-name descname">set_trim_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.set_trim_status" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is not yet documented.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="jsbsim.FGFDMExec.suspend_integration">
+<code class="sig-name descname">suspend_integration</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#jsbsim.FGFDMExec.suspend_integration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Suspends the simulation and sets the delta T to zero.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2019, The JSBSim team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/FGFDMExec.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/JSBSim-Team/jsbsim" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>

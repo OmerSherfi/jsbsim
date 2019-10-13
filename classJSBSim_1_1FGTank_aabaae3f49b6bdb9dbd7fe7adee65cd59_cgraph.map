@@ -1,0 +1,10 @@
+<map id="GetTemperature" name="GetTemperature">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGJSBBase.html#af8ad1042b82f1c0a47801d6978434b80" title="Converts from degrees Celsius to degrees Fahrenheit. " alt="" coords="180,66,335,107"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGTank.html#a3280dd80a29a4ab3343f05a5d2a7afe3" title="Returns the density of a named fuel type. " alt="" coords="189,132,325,159"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="383,5,612,32"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTank.html#a579d8ac3dfbf72907d99e091aefade76" title="Gets the contents of the tank. " alt="" coords="446,56,549,83"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGTank.html#a6b19350f1bbf9525f22785700f6da26f" title="Returns the unusable volume of fuel in the tank. " alt="" coords="421,107,574,133"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGTank.html#aa6ac27a3d6694fe4d0ccc83b3693bbfd" title="Sets the volume of unusable fuel in the tank. " alt="" coords="421,157,573,184"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGTank.html#aab6cbbeebb59460c046b7dae4f07abef" title="Gets the tank fill level. " alt="" coords="455,208,540,235"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGTank.html#a6b0d19e54f73934d65cb8c719092e80a" title="Returns the fuel density. " alt="" coords="451,259,544,285"/>
+</map>

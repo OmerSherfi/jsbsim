@@ -1,0 +1,4 @@
+<map id="GetFlightPathAngleRadIC" name="GetFlightPathAngleRadIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#af22384b550dd6631edcbd0a9b5150a25" title="Gets the initial climb rate. " alt="" coords="232,13,376,39"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="424,5,588,47"/>
+</map>

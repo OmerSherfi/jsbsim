@@ -1,0 +1,9 @@
+<map id="SetAltitudeAGL" name="SetAltitudeAGL">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a1fabb78d427d8f826631eb863fccce28" title="Resets the IC data structure to new values. " alt="" coords="172,5,359,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="641,49,828,91"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="186,123,345,164"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="180,188,351,229"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a122dacd64147e2d1b1db97e719de2989" title="Sets pitch angle initial condition in degrees. " alt="" coords="407,5,593,47"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="655,144,814,185"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropagate.html#a304ec0e1cb17dffd5699081e238e555c" title="Returns the current altitude rate. " alt="" coords="421,188,579,229"/>
+</map>

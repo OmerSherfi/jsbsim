@@ -1,0 +1,4 @@
+<map id="GetAGLevel" name="GetAGLevel">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGGroundCallback.html#a719a2c167b6f1151701d4844b642809e" title="Compute the altitude above ground. " alt="" coords="195,5,292,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGGroundCallback.html#af15e0c7b370e691fabd7252915159103" title="Compute the local terrain radius. " alt="" coords="151,56,336,83"/>
+</map>

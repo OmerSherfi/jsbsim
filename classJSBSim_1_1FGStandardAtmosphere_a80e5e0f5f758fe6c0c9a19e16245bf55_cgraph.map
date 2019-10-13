@@ -1,0 +1,9 @@
+<map id="SetTemperature" name="SetTemperature">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAtmosphere.html#aeedf5b90116afcec772c0bdeb6536a8d" title="Converts to Rankine from one of several unit systems. " alt="" coords="199,5,371,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGStandardAtmosphere.html#abf48220ca0c338db70ce75caaf591a91" title="Convert a geometric altitude to a geopotential altitude. " alt="" coords="440,97,593,123"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGStandardAtmosphere.html#a1eb8fafb77f1d00679eee2538837151c" title="Returns the standard temperature in degrees Rankine at a specified altitude. " alt="" coords="211,122,359,149"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGStandardAtmosphere.html#a86254b06f7adbbf9e4c61974adc2998c" title="Calculate (or recalculate) the atmospheric pressure breakpoints at the altitudes in the standard temp..." alt="" coords="179,173,392,199"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGAtmosphere.html#a2739860a840fcea921d3b37e1958bac0" title="Returns the actual, modeled temperature at the current altitude in degrees Rankine. " alt="" coords="199,224,371,265"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGStandardAtmosphere.html#ae1554711a7dac71879e2ebc4535411c1" title="Calculate the SL density and sound speed. " alt="" coords="183,289,387,331"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGStandardAtmosphere.html#a90c1d8ac6403484f48a69feb4d0148e2" title="Calculate the SL density. " alt="" coords="444,297,589,323"/>
+</map>

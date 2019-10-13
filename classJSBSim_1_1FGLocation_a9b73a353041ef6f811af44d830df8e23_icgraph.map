@@ -1,0 +1,5 @@
+<map id="GetSinLatitude" name="GetSinLatitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInertial.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Inertial model; called by the Executive Can pass in a value indicating if the executive is d..." alt="" coords="171,5,337,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a077d7597ec2d610bd6370db8c8a44232" title="Get the heading that should be followed from the current location to a given location along the short..." alt="" coords="199,56,309,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#a7e110293850bba7cf628406c00fa76ba" title="Transform matrix from the earth centered to local horizontal frame. " alt="" coords="385,56,461,83"/>
+</map>

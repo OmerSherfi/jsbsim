@@ -1,0 +1,22 @@
+<map id="GetTerrainRadius" name="GetTerrainRadius">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a9b141f4fc94bac705b0b3accb6cb0fe3" title="Gets the initial terrain elevation. " alt="" coords="417,39,604,81"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a78752db06521e6974fad0089a5e31695" title="Sets the initial Altitude above ground level. " alt="" coords="183,247,369,289"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGLocation.html#a59c7aae863131d3f63b23ad8b24d8858" title="Set the altitude above ground level. " alt="" coords="217,496,335,523"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="425,586,596,627"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGPropagate.html#a19ebb4cbb08e4d1bde3a408bcc2f1795" title="Returns the current altitude above sea level. " alt="" coords="197,775,355,817"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="888,178,1075,219"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#aa0c548a6f05ffe886f3bef2aad899c28" title="Gets the initial longitude. " alt="" coords="653,39,839,81"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#a93ec4bc417c0505b4548f6a63af82bdf" title="Sets the initial terrain elevation. " alt="" coords="417,163,604,205"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a68c83023466c7734fea2917175d9325d" title="Sets the flight path angle initial condition in degrees. " alt="" coords="652,207,840,249"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#ab6f6dae970e40878a34789be7dfcb9a7" title="Sets the initial latitude. " alt="" coords="653,273,839,314"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#a5c7c88a597829607471730f280b3266b" title="Sets the initial longitude. " alt="" coords="653,338,839,379"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGInitialCondition.html#a1fabb78d427d8f826631eb863fccce28" title="Resets the IC data structure to new values. " alt="" coords="417,455,604,497"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="431,521,590,562"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="667,645,825,686"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGFDMExec.html#aa83769769c700eba0b0b82a5c62dbc71" title="This function executes each scheduled model in succession. " alt="" coords="419,703,602,729"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1MSIS.html#a35ac9aa2a24b4c76037dcc874cdfdcdd" title="Runs the MSIS&#45;00 atmosphere model; called by the Executive Can pass in a value indicating if the exec..." alt="" coords="441,753,580,780"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="433,805,588,846"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="420,870,601,911"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGPropagate.html#a55aaca762c09b90b9450eeffcf9bfc3f" title="Calculates and retrieves the velocity vector relative to the earth centered earth fixed (ECEF) frame ..." alt="" coords="431,935,590,977"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGPropagate.html#a720b90c5ffaf90f469cc65aa40ca4c5d" title="Returns the current altitude above sea level. " alt="" coords="424,1001,597,1042"/>
+</map>

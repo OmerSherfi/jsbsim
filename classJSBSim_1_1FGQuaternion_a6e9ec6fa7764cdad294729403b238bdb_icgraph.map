@@ -1,0 +1,7 @@
+<map id="Magnitude" name="Magnitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGQuaternion.html#a231f7602591a267c2669a2af9b9c8749" title="Normalize. " alt="" coords="143,137,229,163"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="277,5,464,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropagate.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="291,71,450,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#a6a159ce8070ef45333eda6bf63f72ebb" title="Initializer by euler angle vector. " alt="" coords="315,137,426,163"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGQuaternion.html#a976067f8ff29e873f6347c25fb879a2a" title="Square of the length of the vector. " alt="" coords="315,187,426,214"/>
+</map>

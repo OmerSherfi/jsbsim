@@ -1,0 +1,26 @@
+<map id="Transposed" name="Transposed">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAerodynamics.html#aae3a4b93370c68ef20004c531bd6646f" title="Gets the aero function values. " alt="" coords="153,13,337,55"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGAuxiliary.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Auxiliary routines; called by the Executive Can pass in a value indicating if the executive ..." alt="" coords="157,86,333,113"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#a1fabb78d427d8f826631eb863fccce28" title="Resets the IC data structure to new values. " alt="" coords="625,356,812,397"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="1095,327,1281,368"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGInitialCondition.html#abaa026e39ca6d9c383ccffa8f9bbd936" title="Set calibrated airspeed initial condition in knots. " alt="" coords="625,581,812,623"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGInitialCondition.html#aab430a890b7eb995d69c0c042fca969a" title="Sets the initial angle of attack. " alt="" coords="152,268,339,309"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGInitialCondition.html#a4e35ac529197f0bbcd476f52eae08a40" title="Sets the initial sideslip angle. " alt="" coords="152,429,339,471"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGLGear.html#ad983d4035efc81bf292e4269cd3601cc" title="The Force vector for this gear. " alt="" coords="148,676,343,717"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGLocation.html#a0697137d8c02a8b84f695d12317347a6" title="Sets the semimajor and semiminor axis lengths for this planet. " alt="" coords="172,508,319,549"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="405,567,563,608"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGPropagate.html#a35ac9aa2a24b4c76037dcc874cdfdcdd" title="Runs the state propagation model; called by the Executive Can pass in a value indicating if the execu..." alt="" coords="150,742,341,769"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGPropagate.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="166,793,325,835"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGPropeller.html#a15792c31b5924f5afe34808502a965ef" title="Calculates and returns the thrust produced by this propeller. " alt="" coords="171,859,320,900"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGRotor.html#a4bc3dbf658386662ee7dc09a2a70383c" title="Constructor for FGRotor. " alt="" coords="153,925,337,951"/>
+<area shape="rect" id="node25" href="$classJSBSim_1_1FGRotor.html#a630c02bbc20b13cbbd9f10ebe27871be" title="Destructor for FGRotor. " alt="" coords="148,975,343,1002"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAerodynamics.html#afa037457bbfd27fe828956fd84ca2795" title="Retrieves the square of the lift coefficient. " alt="" coords="392,5,576,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="393,71,575,112"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a122dacd64147e2d1b1db97e719de2989" title="Sets pitch angle initial condition in degrees. " alt="" coords="860,356,1047,397"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGInitialCondition.html#a5c958bfa2833878f77a13e857e446534" title="Sets angle of attack initial condition in degrees. " alt="" coords="860,239,1047,280"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGInitialCondition.html#a4432f5e65443121378434889b2580f07" title="Sets the initial flight path angle. " alt="" coords="391,297,577,339"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGInitialCondition.html#abffe2ecc4a7f992d6e4a8569e374eb5e" title="Sets angle of sideslip initial condition in degrees. " alt="" coords="625,473,812,515"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGFDMExec.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="405,728,563,769"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGPropagate.html#ad257da8de9bd36b25735d6577f6dbd21" title="Returns the quaternion that goes from ECEF to Body. " alt="" coords="405,793,563,835"/>
+<area shape="rect" id="node23" href="$classJSBSim_1_1FGPropeller.html#abfb78248385ad5cc7965b9b455347c33" title="Retrieves the Torque in foot&#45;pounds (Don&#39;t you love the English system?) " alt="" coords="409,859,559,900"/>
+</map>

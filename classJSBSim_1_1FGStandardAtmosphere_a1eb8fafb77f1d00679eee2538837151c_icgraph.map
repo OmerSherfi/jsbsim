@@ -1,0 +1,8 @@
+<map id="GetStdTemperature" name="GetStdTemperature">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGStandardAtmosphere.html#ab3581d12823ef4d9ac32881ba1afba7f" title="Returns the standard pressure at the specified altitude. " alt="" coords="230,56,353,83"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGStandardAtmosphere.html#a47e546bb56670eb8e930de99401770af" title="Returns the standard density at a specified altitude. " alt="" coords="443,5,557,32"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGStandardAtmosphere.html#a80e5e0f5f758fe6c0c9a19e16245bf55" title="Sets the temperature at the supplied altitude, if it is to be different than the standard temperature..." alt="" coords="229,107,354,133"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGStandardAtmosphere.html#a143b774df7054fd0a55cc378550b2c43" title="Returns the ratio of the standard temperature at the supplied altitude over the standard sea level te..." alt="" coords="201,157,381,184"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGStandardAtmosphere.html#a35789c83cd390c95759e43ac7814e228" title="Returns the temperature gradient to be applied on top of the standard temperature gradient..." alt="" coords="619,81,833,108"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGStandardAtmosphere.html#ad56cd84161ea889f17e5cf8971eab3b2" title="Sets the Sea Level temperature, if it is to be different than the standard. " alt="" coords="429,157,571,184"/>
+</map>

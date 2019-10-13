@@ -1,0 +1,12 @@
+<map id="GetLongitude" name="GetLongitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAuxiliary.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Auxiliary routines; called by the Executive Can pass in a value indicating if the executive ..." alt="" coords="401,287,577,313"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#a777b283e5014563b30f96b47a9e6220a" title="Sets the initial geodetic latitude. " alt="" coords="161,105,348,146"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGInitialCondition.html#af59bf6497667ca7fc54c44663470c3d5" title="Gets the initial longitude. " alt="" coords="161,221,348,262"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGLocation.html#a615abebc7359f6a872d60c7680a8039c" title="Get the geodetic distance between the current location and a given location. " alt="" coords="197,337,312,364"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGLocation.html#a077d7597ec2d610bd6370db8c8a44232" title="Get the heading that should be followed from the current location to a given location along the short..." alt="" coords="199,388,310,415"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#adb6fe57c0d1ce470a4d12b8e3054f75b" title="Sets the altitude above sea level initial condition in feet. " alt="" coords="396,170,583,211"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="631,138,817,179"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#aba2e10b224998e7ecd7edffdc6869c39" title="Sets the initial geodetic latitude. " alt="" coords="396,39,583,81"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a0ab5b13bb7a8589f9c565ceb3dd96202" title="Sets the initial heading angle. " alt="" coords="396,105,583,146"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGLocation.html#a7e110293850bba7cf628406c00fa76ba" title="Transform matrix from the earth centered to local horizontal frame. " alt="" coords="451,337,527,364"/>
+</map>

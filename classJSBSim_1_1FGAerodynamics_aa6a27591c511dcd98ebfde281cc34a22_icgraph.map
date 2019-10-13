@@ -1,0 +1,5 @@
+<map id="GetMomentsInStabilityAxes" name="GetMomentsInStabilityAxes">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAerodynamics.html#aae3a4b93370c68ef20004c531bd6646f" title="Gets the aero function values. " alt="" coords="252,5,423,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAerodynamics.html#afa037457bbfd27fe828956fd84ca2795" title="Retrieves the square of the lift coefficient. " alt="" coords="506,5,617,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="471,57,652,98"/>
+</map>

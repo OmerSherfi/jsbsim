@@ -1,0 +1,6 @@
+<map id="GetGeodLatitudeDeg" name="GetGeodLatitudeDeg">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#afb4e6ad5029899bf5270a6916abe709b" title="Gets the initial geodetic latitude. " alt="" coords="211,5,397,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="225,71,383,112"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="445,5,632,47"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGPropagate.html#adf79ff2ea1194b5f50fe281d04db8630" title="Retrieves the Euler angles that define the vehicle orientation. " alt="" coords="459,71,618,112"/>
+</map>

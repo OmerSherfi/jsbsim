@@ -1,0 +1,5 @@
+<map id="GetDsCmd" name="GetDsCmd">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFDMExec.html#ae805f4c2614b9f0a7eac55a1ecf9100f" title="Returns the FGGroundReactions pointer. " alt="" coords="167,5,325,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGGroundReactions.html#a01c66951fa1bf70df8106896acb7d8a1" title="Gets the steering command. " alt="" coords="145,71,347,112"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGGroundReactions.html#a9df30f127d68cac80b72996975b60653" title="Sets the steering command. " alt="" coords="395,71,596,112"/>
+</map>

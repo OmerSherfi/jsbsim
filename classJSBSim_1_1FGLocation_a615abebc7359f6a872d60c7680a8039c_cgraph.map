@@ -1,0 +1,6 @@
+<map id="GetDistanceTo" name="GetDistanceTo">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#ada87a409e3919490b608b42a27f438e7" title="Get the latitude. " alt="" coords="180,5,277,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a2420bec8cd0ca25c04353050a926a6af" title="Get the longitude. " alt="" coords="175,56,283,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#abe2cd187c5f677dd158e0a3f7cd5588b" title="Get the cosine of Latitude. " alt="" coords="168,107,289,133"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGLocation.html#a3f3f67b03ed439bd572208afa1a737b5" title="Get the distance from the center of the earth. " alt="" coords="185,157,272,184"/>
+</map>

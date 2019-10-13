@@ -1,0 +1,7 @@
+<map id="SetDelimiter" name="SetDelimiter">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputTextFile.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="167,19,221,46"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputTextFile.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output to the text file. " alt="" coords="169,74,219,101"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGOutputTextFile.html#af7ed132e28559c2acc99958330aab6b2" title="Opens the file. " alt="" coords="156,125,232,151"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1Element.html#a4fd4cb4d88046523b2cf729bf847e0e2" title="Retrieves an attribute. " alt="" coords="280,5,496,47"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGFDMExec.html#a87bead163bb96f9bbf0b48b6ff14ec38" title="Returns the cumulative simulation time in seconds. " alt="" coords="309,71,467,112"/>
+</map>

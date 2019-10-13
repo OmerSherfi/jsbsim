@@ -1,0 +1,15 @@
+<map id="GetContactPoint" name="GetContactPoint">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLGear.html#ad983d4035efc81bf292e4269cd3601cc" title="The Force vector for this gear. " alt="" coords="180,5,375,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#a05481f3155aa12f45a0a9678c451e777" title="Get the altitude above ground level. " alt="" coords="217,130,337,157"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="657,130,828,157"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropagate.html#a19ebb4cbb08e4d1bde3a408bcc2f1795" title="Returns the current altitude above sea level. " alt="" coords="198,403,357,444"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="423,123,609,164"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="431,188,601,229"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="663,495,822,536"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGFDMExec.html#aa83769769c700eba0b0b82a5c62dbc71" title="This function executes each scheduled model in succession. " alt="" coords="425,254,607,281"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1MSIS.html#a35ac9aa2a24b4c76037dcc874cdfdcdd" title="Runs the MSIS&#45;00 atmosphere model; called by the Executive Can pass in a value indicating if the exec..." alt="" coords="447,553,585,579"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="439,305,593,347"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="425,371,607,412"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGPropagate.html#a55aaca762c09b90b9450eeffcf9bfc3f" title="Calculates and retrieves the velocity vector relative to the earth centered earth fixed (ECEF) frame ..." alt="" coords="437,436,595,477"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGPropagate.html#a720b90c5ffaf90f469cc65aa40ca4c5d" title="Returns the current altitude above sea level. " alt="" coords="429,604,603,645"/>
+</map>

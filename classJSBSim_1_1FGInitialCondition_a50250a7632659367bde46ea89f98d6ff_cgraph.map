@@ -1,0 +1,5 @@
+<map id="GetMachIC" name="GetMachIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="151,5,309,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAtmosphere.html#ab4bef1b1a9226219f8539341f111d453" title="Returns the speed of sound in ft/sec. " alt="" coords="144,71,316,112"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#a68770d410d126fdefa594fa33c73dd33" title="Transformation matrix. " alt="" coords="148,136,312,177"/>
+</map>

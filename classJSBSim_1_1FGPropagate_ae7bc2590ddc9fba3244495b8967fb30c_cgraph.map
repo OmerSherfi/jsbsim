@@ -1,0 +1,12 @@
+<map id="SetHoldDown" name="SetHoldDown">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGQuaternion.html#ae5bc09242f703200918ea73ba0124d15" title="Quaternion derivative for given angular rates. " alt="" coords="161,35,325,76"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#a231f7602591a267c2669a2af9b9c8749" title="Normalize. " alt="" coords="161,115,325,156"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGLocation.html#aadb905dbfc66f21ccbee7735d5084c3b" title="Transform matrix from local horizontal to earth centered frame. " alt="" coords="170,180,317,221"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGMatrix33.html#aad49f19d4d1877d4d9b329d05849229f" title="Transposed matrix. " alt="" coords="169,245,317,287"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGQuaternion.html#a68770d410d126fdefa594fa33c73dd33" title="Transformation matrix. " alt="" coords="161,311,325,352"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGMatrix33.html#a40dfaac7d5941acbb712f0f89f44a65a" title="Returns the quaternion associated with this direction cosine (rotation) matrix. " alt="" coords="169,376,317,417"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#af37693324e4bd4b0781668dc2e347821" title="Default initializer. " alt="" coords="373,5,537,47"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="373,71,537,112"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGMatrix33.html#a07067602e11a88f2a5d341128499fff3" title="Transposes this matrix. " alt="" coords="374,137,537,163"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGMatrix33.html#af2bee4372e6c73310a7ab069974690be" title="Returns the Euler angle column vector associated with this matrix. " alt="" coords="381,188,529,229"/>
+</map>

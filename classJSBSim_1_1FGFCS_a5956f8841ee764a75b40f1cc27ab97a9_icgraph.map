@@ -1,0 +1,6 @@
+<map id="SetDeCmd" name="SetDeCmd">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCS.html#a257216a6e04e4fd8728cd71ae0234fcb" title="Retrieves all component outputs for inclusion in output stream. " alt="" coords="149,59,312,85"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTrim.html#a6a5e26b6c78ad99b63d075c6acc70679" title="Execute the trim. " alt="" coords="145,109,316,136"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCS.html#a9538258f28ba6ebd1ffa485cc8d23c96" title="Gets the prop feather position. " alt="" coords="393,29,516,56"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="364,81,545,122"/>
+</map>

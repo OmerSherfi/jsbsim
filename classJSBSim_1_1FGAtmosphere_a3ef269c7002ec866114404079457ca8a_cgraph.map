@@ -1,0 +1,19 @@
+<map id="CalculatePressureAltitude" name="CalculatePressureAltitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAtmosphere.html#aeedf5b90116afcec772c0bdeb6536a8d" title="Converts to Rankine from one of several unit systems. " alt="" coords="250,132,385,159"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAtmosphere.html#a7401462e3f67e21e3c3c11a4d6aa8659" title="Converts from Rankine to one of several unit systems. " alt="" coords="240,183,395,209"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGAtmosphere.html#a17e1c292dff35d7f2dc8003e77d88008" title="Converts to PSF (pounds per square foot) from one of several unit systems. " alt="" coords="263,233,372,260"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGAtmosphere.html#a585850d33c9907f315e6a1be27c5f0d0" title="Converts from PSF (pounds per square foot) to one of several unit systems. " alt="" coords="253,284,381,311"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGJSBBase.html#ab1cd84a064daee36bb88b9052514da65" title="Converts from degrees Kelvin to degrees Rankine. " alt="" coords="240,335,395,377"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="443,5,672,32"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGAtmosphere.html#a2739860a840fcea921d3b37e1958bac0" title="Returns the actual, modeled temperature at the current altitude in degrees Rankine. " alt="" coords="720,132,847,159"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGAtmosphere.html#af3901faba5f7dfd5d6346fd031c5b3de" title="Returns the density in slugs/ft^3. " alt="" coords="511,107,604,133"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGAtmosphere.html#aa5dcca5a24bfb2c69dde5e88942b58dd" title="Returns the pressure in psf. " alt="" coords="507,157,608,184"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGAtmosphere.html#ab4bef1b1a9226219f8539341f111d453" title="Returns the speed of sound in ft/sec. " alt="" coords="720,436,847,463"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGAtmosphere.html#a4214dbe844fb66d3c0121df4cb3ae3b2" title="Returns the actual, modeled sea level temperature in degrees Rankine. " alt="" coords="486,259,629,285"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGAtmosphere.html#aee5a2ed8857b017f5ee36e458bf2f66e" title="Returns the sea level density in slugs/ft^3. " alt="" coords="503,309,612,336"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGAtmosphere.html#a5631cc70210b25aec66dc4abe0895da4" title="Returns the sea level speed of sound in ft/sec. " alt="" coords="486,360,629,387"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGAtmosphere.html#a0028c18a3bb10d722e10c2172653f3f8" title="Returns the ratio of the at&#45;current&#45;altitude temperature as modeled over the sea level value..." alt="" coords="478,208,637,235"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGAtmosphere.html#ac9aeef98af11f5056d4261a287d38999" title="Returns the ratio of at&#45;altitude density over the sea level value. " alt="" coords="495,411,620,437"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGAtmosphere.html#a483e5ac20343530404e2365f41ce2dc2" title="Returns the ratio of at&#45;altitude pressure over the sea level value. " alt="" coords="491,512,624,539"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGAtmosphere.html#a818c0baa81491ed7bc8abd644f17ec23" title="Returns the ratio of at&#45;altitude sound speed over the sea level value. " alt="" coords="478,563,637,589"/>
+</map>

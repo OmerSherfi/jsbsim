@@ -1,0 +1,8 @@
+<map id="GetWeight" name="GetWeight">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAccelerations.html#a072db9ba5c626409e95ed1000e8fe9c6" title="Initializes the FGAccelerations class prior to a new execution. " alt="" coords="140,81,284,108"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGAccelerations.html#ae7bc2590ddc9fba3244495b8967fb30c" title="Sets the property forces/hold&#45;down. " alt="" coords="158,136,266,163"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="332,5,561,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGAccelerations.html#ad56ecf6d10dbe104143838bf49739196" title="Retrieves the body axis angular acceleration vector. " alt="" coords="401,56,493,83"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGAccelerations.html#ad1d9c9c00e369a827c01b7c70a518e48" title="Retrieves the body axis acceleration. " alt="" coords="399,107,495,133"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGJSBBase.html#a68d4cc66e32cfecaae8f500d688252c9" title="Constrain a value between a minimum and a maximum value. " alt="" coords="369,158,524,199"/>
+</map>

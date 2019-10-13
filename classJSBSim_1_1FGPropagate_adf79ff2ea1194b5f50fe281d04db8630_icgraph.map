@@ -1,0 +1,5 @@
+<map id="GetEuler" name="GetEuler">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="144,5,299,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGOutputSocket.html#ad752fb6fee3d03568bb8717d046286bd" title="Generates the output. " alt="" coords="131,71,312,112"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="170,137,273,163"/>
+</map>

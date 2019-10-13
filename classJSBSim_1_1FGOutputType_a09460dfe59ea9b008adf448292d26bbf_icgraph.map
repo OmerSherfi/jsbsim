@@ -1,0 +1,10 @@
+<map id="Load" name="Load">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutput.html#aac25385536a14c4bf0ae6aafa785e218" title="Load the output directives and adds a new output instance to the Output Manager list. " alt="" coords="109,56,285,83"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGOutputFile.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="119,107,276,149"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGOutputSocket.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file. " alt="" coords="107,173,288,214"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGOutputType.html#a9c97cfd0e6ca8102462781e03653c18c" title="Get the name identifier to which the output will be directed. " alt="" coords="133,239,261,265"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGOutput.html#aba9ec81f447e9a505fe732037c0f79e7" title="Disables the output generation for all output instances. " alt="" coords="343,5,535,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGScript.html#affd5971385d780aef57a6f7a9645f9f7" title="Loads a script to drive JSBSim (usually in standalone mode). " alt="" coords="336,56,543,83"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGOutputFile.html#a9550bcc440501502fd61409e7342a0c7" title="Destructor : closes the file. " alt="" coords="361,107,518,149"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="362,173,517,214"/>
+</map>

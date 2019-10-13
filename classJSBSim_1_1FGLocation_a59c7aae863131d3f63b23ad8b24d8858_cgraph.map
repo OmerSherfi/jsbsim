@@ -1,0 +1,5 @@
+<map id="SetAltitudeAGL" name="SetAltitudeAGL">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#ad1b855893aaa82233cdd6e509c1ee23a" title="Set the distance from the center of the earth. " alt="" coords="193,13,280,39"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#ad58b0dd5daece07ab1eb41b9b1268360" title="Get the local terrain radius. " alt="" coords="172,63,301,90"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="349,5,540,47"/>
+</map>

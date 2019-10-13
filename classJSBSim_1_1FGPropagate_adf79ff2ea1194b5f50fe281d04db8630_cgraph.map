@@ -1,0 +1,29 @@
+<map id="GetEuler" name="GetEuler">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="131,759,233,786"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#adf79ff2ea1194b5f50fe281d04db8630" title="Retrieves the Euler angles. " alt="" coords="314,5,478,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a87bead163bb96f9bbf0b48b6ff14ec38" title="Returns the cumulative simulation time in seconds. " alt="" coords="317,71,475,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGColumnVector3.html#aa3fb227cef840e32ae8ea38a8c4881ff" title="Prints the contents of the vector. " alt="" coords="301,136,491,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGLocation.html#a23effa8cca6fedfc7bd24058ea889d10" title="Get the geodetic latitude in degrees. " alt="" coords="313,201,479,243"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGLocation.html#a86c9d110a64ec49fc19448ee268035ef" title="Get the longitude. " alt="" coords="323,267,469,308"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropagate.html#a19ebb4cbb08e4d1bde3a408bcc2f1795" title="Returns the current altitude above sea level. " alt="" coords="581,759,699,786"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGQuaternion.html#ac07c223a643744bb8cf3c6b152d545d3" title="Retrieves the Euler angles. " alt="" coords="314,384,478,425"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGPropagate.html#a26dd3028673cd78ee04038860d80ce4b" title="Retrieves the velocity vector. " alt="" coords="364,450,428,477"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGPropagate.html#a8dc54eb90368c1715a37f72dba83e413" title="Retrieves the body frame vehicle velocity vector. " alt="" coords="359,501,433,527"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGFDMExec.html#a333018474e2b8b621a2ec90afeaf74fc" title="Retrieves the full aircraft path name. " alt="" coords="317,552,475,593"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGLocation.html#a7f82a7bf5946086b4993ea22421d7f94" title="Get the latitude. " alt="" coords="323,617,469,659"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGPropertyManager.html#a6285265032c989f4286e7ba47d268733" title="Tie a property to an external bool variable. " alt="" coords="281,683,511,710"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGPropagate.html#a304ec0e1cb17dffd5699081e238e555c" title="Returns the current altitude rate. " alt="" coords="359,835,433,862"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="559,835,721,862"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGMatrix33.html#a40dfaac7d5941acbb712f0f89f44a65a" title="Returns the quaternion associated with this direction cosine (rotation) matrix. " alt="" coords="769,577,917,619"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGPropagate.html#a2f79ccad56b3beb2ed4d50c7e443f463" title="Retrieves the body angular rates vector, relative to the ECEF frame. " alt="" coords="361,886,431,913"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGPropagate.html#a7e5a74b34fb875214d196543ea0a3008" title="Retrieves the body angular rates vector, relative to the ECI (inertial) frame. " alt="" coords="359,937,433,963"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGPropagate.html#a06e4f0d0087f94792c8daacf4cb1f469" title="Retrieves the inertial velocity vector in ft/sec. " alt="" coords="327,987,465,1014"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGPropagate.html#adf9aa3b299eefa0f4ca5f785ec715a88" title="Retrieves the total inertial velocity in ft/sec. " alt="" coords="294,1038,498,1065"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGPropagate.html#a0a90a3f93de95896049942a986659e4e" title="Retrieves the total local NED velocity in ft/sec. " alt="" coords="301,1089,491,1115"/>
+<area shape="rect" id="node23" href="$classJSBSim_1_1FGPropagate.html#a720b90c5ffaf90f469cc65aa40ca4c5d" title="Returns the current altitude above sea level. " alt="" coords="313,734,479,761"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGPropagate.html#a609e46634de475d8c9c100af813d6498" title="Retrieves the inertial position vector. " alt="" coords="327,1190,465,1217"/>
+<area shape="rect" id="node25" href="$classJSBSim_1_1FGPropagate.html#a6646f45979f675bb96a22f1338439318" title="Returns the Earth position angle. " alt="" coords="313,1241,479,1267"/>
+<area shape="rect" id="node26" href="$classJSBSim_1_1FGPropagate.html#a7ad27e5d6ad460fc6d83d9e41bf70c9e" title="Returns the Earth position angle in degrees. " alt="" coords="301,1291,491,1318"/>
+<area shape="rect" id="node27" href="$classJSBSim_1_1FGMatrix33.html#aa3fb227cef840e32ae8ea38a8c4881ff" title="Prints the contents of the matrix. " alt="" coords="322,1343,470,1384"/>
+<area shape="rect" id="node28" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="301,1408,491,1449"/>
+</map>

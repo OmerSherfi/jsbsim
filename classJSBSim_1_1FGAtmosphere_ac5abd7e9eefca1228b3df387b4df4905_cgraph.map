@@ -1,0 +1,4 @@
+<map id="GetDensity" name="GetDensity">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAtmosphere.html#aa5dcca5a24bfb2c69dde5e88942b58dd" title="Returns the pressure in psf. " alt="" coords="159,5,261,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAtmosphere.html#a2739860a840fcea921d3b37e1958bac0" title="Returns the actual, modeled temperature at the current altitude in degrees Rankine. " alt="" coords="147,56,273,83"/>
+</map>

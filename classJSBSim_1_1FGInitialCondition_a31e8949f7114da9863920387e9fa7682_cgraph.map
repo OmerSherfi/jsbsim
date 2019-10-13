@@ -1,0 +1,8 @@
+<map id="GetEarthPositionAngleIC" name="GetEarthPositionAngleIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#aef47a274b700f482ad7c4e75aa8e204b" title="Sets the initial ground speed. " alt="" coords="231,78,363,105"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#aa27763a4d398c95e7b346b824153d11e" title="Sets the initial true airspeed. " alt="" coords="240,21,353,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="424,5,588,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#abb331df77513db8f9d44cb5bbea92b1a" title="Retrieves cosine of the given euler angle. " alt="" coords="424,71,588,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#ab04da5540f142a9e0fc92b9aa56a17a5" title="Retrieves sine of the given euler angle. " alt="" coords="424,136,588,177"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="411,201,601,243"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Gethdot" name="Gethdot">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="128,69,291,95"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#ad58b0dd5daece07ab1eb41b9b1268360" title="Get the local terrain radius. " alt="" coords="535,32,681,73"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGLocation.html#a05481f3155aa12f45a0a9678c451e777" title="Get the altitude above ground level. " alt="" coords="339,28,486,69"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGLocation.html#a59c7aae863131d3f63b23ad8b24d8858" title="Set the altitude above ground level. " alt="" coords="339,93,486,135"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGMatrix33.html#a40dfaac7d5941acbb712f0f89f44a65a" title="Returns the quaternion associated with this direction cosine (rotation) matrix. " alt="" coords="339,159,487,200"/>
+</map>

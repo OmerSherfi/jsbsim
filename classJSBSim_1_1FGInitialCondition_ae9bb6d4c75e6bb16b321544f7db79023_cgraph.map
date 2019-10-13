@@ -1,0 +1,6 @@
+<map id="GetVtrueKtsIC" name="GetVtrueKtsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a50250a7632659367bde46ea89f98d6ff" title="Gets the initial mach. " alt="" coords="165,78,256,105"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="311,5,469,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGAtmosphere.html#ab4bef1b1a9226219f8539341f111d453" title="Returns the speed of sound in ft/sec. " alt="" coords="304,71,476,112"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#a68770d410d126fdefa594fa33c73dd33" title="Transformation matrix. " alt="" coords="308,136,472,177"/>
+</map>

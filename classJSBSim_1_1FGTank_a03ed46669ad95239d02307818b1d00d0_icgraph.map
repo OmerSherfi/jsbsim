@@ -1,0 +1,6 @@
+<map id="GetUnusable" name="GetUnusable">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGPropulsion.html#a35ac9aa2a24b4c76037dcc874cdfdcdd" title="Executes the propulsion model. " alt="" coords="159,5,349,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGTank.html#a3f836b4283222c9b9a1e556ab2205f5a" title="Constructor. " alt="" coords="221,56,287,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGTank.html#a4d69ea3c4fa47fb3481d43af0dc0a0e9" title="Removes fuel from the tank. " alt="" coords="226,107,282,133"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGTank.html#a8f2a5deb2b85c8fc88048d1b9c5736a7" title="Performs local, tanks&#45;specific calculations, such as fuel temperature. " alt="" coords="397,107,479,133"/>
+</map>

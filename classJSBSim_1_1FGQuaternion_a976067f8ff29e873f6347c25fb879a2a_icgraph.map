@@ -1,0 +1,5 @@
+<map id="SqrMagnitude" name="SqrMagnitude">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGQuaternion.html#a93ded52984e3ed4d3e657f5a932c5d05" title="Inverse of the quaternion. " alt="" coords="175,5,243,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="164,56,253,83"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#a231f7602591a267c2669a2af9b9c8749" title="Normalize. " alt="" coords="301,81,388,108"/>
+</map>

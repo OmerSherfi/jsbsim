@@ -1,0 +1,16 @@
+<map id="GetOutputName" name="GetOutputName">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputType.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file (implement the FGModel interface). " alt="" coords="194,249,247,275"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGOutputType.html#a9729191af164b5db0c9f72cd182939d2" title="Init the output model according to its configitation. " alt="" coords="181,442,260,469"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGOutputType.html#aa83769769c700eba0b0b82a5c62dbc71" title="Executes the output directives (implement the FGModel interface). " alt="" coords="198,493,243,519"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGOutputType.html#ae6e19665bcb7d41165ca36818116e774" title="Generate the output. " alt="" coords="392,543,443,570"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1Element.html#aa9c4e9e17572561475562e52683bd726" title="Searches for the named element and returns the string data belonging to it. " alt="" coords="310,5,525,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1Element.html#a66c9f019215d9c6b3f85cdab75d6d429" title="Gets a line of data belonging to an element. " alt="" coords="575,42,792,69"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1Element.html#a0290668d182e1035b626b551f2b552e7" title="Searches for a specified element. " alt="" coords="310,122,525,149"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1Element.html#aa5a4c979e8031643e403f29ba050c988" title="Return a string that contains a description of the location where the current XML element was read fr..." alt="" coords="317,173,517,199"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1Element.html#ac5c2e3334b384afca061f0bf965dc864" title="Determines if an element has the supplied attribute. " alt="" coords="308,274,527,301"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1Element.html#a4fd4cb4d88046523b2cf729bf847e0e2" title="Retrieves an attribute. " alt="" coords="575,233,791,275"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1Element.html#a30a269bd930d31646341ba15787281e3" title="Retrieves an attribute value as a double precision real number. " alt="" coords="575,308,791,349"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1Element.html#ac49b58ae4fd6170ac11c2ed21d882666" title="Searches for the next element as specified. " alt="" coords="321,376,513,417"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGOutputType.html#a61ff3abe8b66c9c5b53026b1daded2e3" title="Set the output rate for this output instances. " alt="" coords="372,442,463,469"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGModel.html#a35ac9aa2a24b4c76037dcc874cdfdcdd" title="Runs the model; called by the Executive. " alt="" coords="336,493,499,519"/>
+</map>

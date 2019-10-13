@@ -1,0 +1,4 @@
+<map id="GetTerrainGeoCentRadius" name="GetTerrainGeoCentRadius">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGGroundCallback.html#ace7991779eb5da216704091e62f12207" title="Compute the altitude above ground. " alt="" coords="283,5,380,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGGroundCallback.html#ac5b93694e04913812e0737f5f50d419c" title="Compute the local terrain radius. " alt="" coords="239,56,424,83"/>
+</map>

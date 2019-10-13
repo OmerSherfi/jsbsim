@@ -1,0 +1,7 @@
+<map id="FGSensor" name="FGSensor">
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGAccelerometer.html" title="Encapsulates a Accelerometer component for the flight control system. " alt="" coords="5,229,139,256"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGGyro.html" title="Encapsulates a Gyro component for the flight control system. " alt="" coords="163,229,232,256"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGMagnetometer.html" title="Encapsulates a magnetometer component for the flight control system. " alt="" coords="257,229,391,256"/>
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCSComponent.html" title="Base class for JSBSim Flight Control System Components. " alt="" coords="128,80,267,107"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGJSBBase.html" title="JSBSim Base class. " alt="" coords="151,5,243,32"/>
+</map>

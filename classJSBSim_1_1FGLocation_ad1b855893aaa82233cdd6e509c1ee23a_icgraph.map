@@ -1,0 +1,10 @@
+<map id="SetRadius" name="SetRadius">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="307,35,493,76"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGLocation.html#a59c7aae863131d3f63b23ad8b24d8858" title="Set the altitude above ground level. " alt="" coords="140,107,259,134"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#ae2b6568a2bdbaa0414cdaa5b36344d0d" title="Gets the target normal load factor set from IC. " alt="" coords="567,5,754,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInput.html#a8204557b6f2865b7e6e29b3a3a9d524d" title="Adds a new input instance to the Input Manager. " alt="" coords="541,71,780,98"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGScript.html#affd5971385d780aef57a6f7a9645f9f7" title="Loads a script to drive JSBSim (usually in standalone mode). " alt="" coords="557,122,764,149"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a1fabb78d427d8f826631eb863fccce28" title="Resets the IC data structure to new values. " alt="" coords="307,100,493,141"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGPropagate.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the FGPropagate class after instantiation and prior to first execution. " alt="" coords="321,165,479,207"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGPropagate.html#a61eb764447723162a99933775f3921a4" title="Returns the &quot;constant&quot; LocalTerrainRadius. " alt="" coords="315,231,485,272"/>
+</map>

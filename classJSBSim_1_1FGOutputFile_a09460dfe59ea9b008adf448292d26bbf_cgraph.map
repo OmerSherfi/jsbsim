@@ -1,0 +1,16 @@
+<map id="Load" name="Load">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputType.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the output directives from an XML file (implement the FGModel interface). " alt="" coords="107,270,272,312"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1Element.html#a4fd4cb4d88046523b2cf729bf847e0e2" title="Retrieves an attribute. " alt="" coords="587,448,803,489"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGOutputFile.html#a12e5a108ad6dcff5ae0e243d0474aca5" title="Overwrites the name identifier under which the output will be logged. " alt="" coords="126,586,253,612"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1Element.html#aa9c4e9e17572561475562e52683bd726" title="Searches for the named element and returns the string data belonging to it. " alt="" coords="322,56,537,97"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1Element.html#a66c9f019215d9c6b3f85cdab75d6d429" title="Gets a line of data belonging to an element. " alt="" coords="587,34,804,60"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1Element.html#a0290668d182e1035b626b551f2b552e7" title="Searches for a specified element. " alt="" coords="322,354,537,380"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1Element.html#aa5a4c979e8031643e403f29ba050c988" title="Return a string that contains a description of the location where the current XML element was read fr..." alt="" coords="329,404,529,431"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1Element.html#ac5c2e3334b384afca061f0bf965dc864" title="Determines if an element has the supplied attribute. " alt="" coords="320,303,539,330"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1Element.html#a30a269bd930d31646341ba15787281e3" title="Retrieves an attribute value as a double precision real number. " alt="" coords="587,270,803,312"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1Element.html#ac49b58ae4fd6170ac11c2ed21d882666" title="Searches for the next element as specified. " alt="" coords="333,121,525,162"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGOutputType.html#a61ff3abe8b66c9c5b53026b1daded2e3" title="Set the output rate for this output instances. " alt="" coords="347,186,512,228"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1FGFDMExec.html#a4de41e7fdd2e6f0ba9f36ef7e1a0f88f" title="Retrieves the Root Directory. " alt="" coords="350,608,509,649"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGOutputFile.html#a1b21b2ee4c8e52c734cea41681dba720" title="Generate the output. " alt="" coords="404,674,455,700"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGOutputFile.html#af14d632285848c3b58607fbbd34b8e53" title="Opens the file. " alt="" coords="391,556,467,583"/>
+</map>

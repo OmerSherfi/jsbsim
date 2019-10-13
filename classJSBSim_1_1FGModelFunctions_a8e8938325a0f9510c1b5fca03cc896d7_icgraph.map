@@ -1,0 +1,5 @@
+<map id="GetFunctionStrings" name="GetFunctionStrings">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGAerodynamics.html#ac5765712054569e0d2ee4072c3f1ea77" title="Gets the strings for the current set of aero functions. " alt="" coords="196,39,380,80"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGAerodynamics.html#afa037457bbfd27fe828956fd84ca2795" title="Retrieves the square of the lift coefficient. " alt="" coords="428,5,612,47"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGOutputSocket.html#a9729191af164b5db0c9f72cd182939d2" title="Initializes the instance. " alt="" coords="429,71,611,112"/>
+</map>

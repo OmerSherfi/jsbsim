@@ -1,0 +1,4 @@
+<map id="GetBrake" name="GetBrake">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCS.html#ad0833f947e79b041703133d7492cb277" title="Sets the center brake group. " alt="" coords="136,5,227,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCS.html#a257216a6e04e4fd8728cd71ae0234fcb" title="Retrieves all component outputs for inclusion in output stream. " alt="" coords="275,5,437,32"/>
+</map>

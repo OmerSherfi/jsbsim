@@ -1,0 +1,11 @@
+<map id="SetVgroundKtsIC" name="SetVgroundKtsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#aef47a274b700f482ad7c4e75aa8e204b" title="Sets the initial ground speed. " alt="" coords="184,116,316,143"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a4b214047e1c25d93b9d706621f32f6ce" title="Set mach initial condition. " alt="" coords="205,280,295,307"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGQuaternion.html#ac417c35599d799ff7c42ff3ce513d4c0" title="Backward transformation matrix. " alt="" coords="603,174,767,216"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGQuaternion.html#abb331df77513db8f9d44cb5bbea92b1a" title="Retrieves cosine of the given euler angle. " alt="" coords="377,44,541,85"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGQuaternion.html#ab04da5540f142a9e0fc92b9aa56a17a5" title="Retrieves sine of the given euler angle. " alt="" coords="377,109,541,150"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="364,174,555,216"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="380,240,539,281"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGAtmosphere.html#ab4bef1b1a9226219f8539341f111d453" title="Returns the speed of sound in ft/sec. " alt="" coords="373,305,545,346"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGInitialCondition.html#aa27763a4d398c95e7b346b824153d11e" title="Sets the initial true airspeed. " alt="" coords="403,371,516,398"/>
+</map>

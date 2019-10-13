@@ -1,0 +1,6 @@
+<map id="Load" name="Load">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInput.html#a09460dfe59ea9b008adf448292d26bbf" title="Load the input directives and adds a new input instance to the Input Manager list. " alt="" coords="109,5,273,32"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGInputSocket.html#a09460dfe59ea9b008adf448292d26bbf" title="Init the input directives from an XML file. " alt="" coords="107,57,276,98"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGScript.html#affd5971385d780aef57a6f7a9645f9f7" title="Loads a script to drive JSBSim (usually in standalone mode). " alt="" coords="324,5,531,32"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGUDPInputSocket.html#a09460dfe59ea9b008adf448292d26bbf" title="Reads the property names from an XML file. " alt="" coords="329,57,526,98"/>
+</map>

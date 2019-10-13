@@ -1,0 +1,4 @@
+<map id="GetVgroundKtsIC" name="GetVgroundKtsIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGInitialCondition.html#a70c76b2d70e80728f3f2c68ca0c8f8c7" title="Gets the initial ground velocity. " alt="" coords="184,13,317,39"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGColumnVector3.html#a6e9ec6fa7764cdad294729403b238bdb" title="Length of the vector. " alt="" coords="365,5,556,47"/>
+</map>

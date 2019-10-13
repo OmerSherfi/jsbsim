@@ -1,0 +1,41 @@
+<map id="GetDataAsNumber" name="GetDataAsNumber">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGEngine.html#ad4125fdae2014d9edd2b689eea6a6bb9" title="Sets engine placement information. " alt="" coords="448,5,683,32"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGFCSComponent.html#ad402808175fe500162a7e3bcd23aed5a" title="Constructor. " alt="" coords="202,1170,395,1211"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFunction.html#a89b81df0d34de831a1e8c48903d1af64" title="Constructor. " alt="" coords="225,1235,372,1277"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#af4c905db84f046ff017aaa3cb86a3541" title="Loads the initial conditions. " alt="" coords="472,239,659,281"/>
+<area shape="rect" id="node9" href="$classJSBSim_1_1FGLGear.html#a27044d02e736b462e84b6c61d1200f41" title="Constructor. " alt="" coords="468,371,663,397"/>
+<area shape="rect" id="node10" href="$classJSBSim_1_1FGPropeller.html#af055485a3f74654dae147e839447e9ad" title="Constructor for FGPropeller. " alt="" coords="491,990,640,1031"/>
+<area shape="rect" id="node11" href="$classJSBSim_1_1FGRotor.html#a4bc3dbf658386662ee7dc09a2a70383c" title="Constructor for FGRotor. " alt="" coords="473,837,657,864"/>
+<area shape="rect" id="node12" href="$classJSBSim_1_1FGRotor.html#a630c02bbc20b13cbbd9f10ebe27871be" title="Destructor for FGRotor. " alt="" coords="468,421,663,448"/>
+<area shape="rect" id="node13" href="$classJSBSim_1_1Element.html#aee69786373509020c79e3deeb7bfe592" title="Searches for the named element and returns the data belonging to it as a number. " alt="" coords="197,941,400,968"/>
+<area shape="rect" id="node26" href="$classJSBSim_1_1Element.html#a4f8c2d4e26b46a88420356342b350305" title="Searches for the named element and returns the data belonging to it as a bool. " alt="" coords="197,1053,400,1080"/>
+<area shape="rect" id="node27" href="$classJSBSim_1_1Element.html#abf31eea79e3de7547610926decbb7b3d" title="Searches for the named element and converts and returns the data belonging to it. ..." alt="" coords="197,647,400,689"/>
+<area shape="rect" id="node33" href="$classJSBSim_1_1Element.html#aead08e34b118ae3229a04cfa2e1aab71" title="Searches for the named element and converts and returns the data belonging to it. ..." alt="" coords="197,1105,400,1146"/>
+<area shape="rect" id="node35" href="$classJSBSim_1_1Element.html#a326333a8188c02e36352de3f609c3a03" title="Composes a 3&#45;element column vector for the supplied location or orientation. " alt="" coords="199,371,399,397"/>
+<area shape="rect" id="node38" href="$classJSBSim_1_1Element.html#a79aeff482261686b1544f79b93dd4063" title="Returns the number of child elements for this element. " alt="" coords="231,1596,367,1623"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGInitialCondition.html#ae2b6568a2bdbaa0414cdaa5b36344d0d" title="Gets the target normal load factor set from IC. " alt="" coords="757,239,943,281"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInput.html#a8204557b6f2865b7e6e29b3a3a9d524d" title="Adds a new input instance to the Input Manager. " alt="" coords="731,305,969,332"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGScript.html#affd5971385d780aef57a6f7a9645f9f7" title="Loads a script to drive JSBSim (usually in standalone mode). " alt="" coords="747,913,953,940"/>
+<area shape="rect" id="node14" href="$classJSBSim_1_1FGActuator.html#a0962ac7e146feeb5eaad86e2c48a509f" title="Constructor. " alt="" coords="491,1055,639,1097"/>
+<area shape="rect" id="node15" href="$classJSBSim_1_1FGGasCell.html#a1cf9a5c35024d2b623634085b0f380fc" title="Constructor. " alt="" coords="491,473,640,514"/>
+<area shape="rect" id="node16" href="$classJSBSim_1_1FGGasCell.html#ab4f2abee6ace8ea44fa06a50f78b7540" title="Runs the gas cell model; called by BuoyantForces. " alt="" coords="491,538,640,579"/>
+<area shape="rect" id="node17" href="$classJSBSim_1_1FGKinemat.html#abe34d80da8adce1b0d37349b3426eaa0" title="Constructor. " alt="" coords="488,1223,643,1265"/>
+<area shape="rect" id="node18" href="$classJSBSim_1_1FGLinearActuator.html#aa9a886685d7f93109a4077064af3c27b" title="Constructor. " alt="" coords="472,1289,659,1330"/>
+<area shape="rect" id="node19" href="$classJSBSim_1_1FGPiston.html#a7db5fe477b255ce4ce71fe89817d98ef" title="Constructor. " alt="" coords="467,939,663,965"/>
+<area shape="rect" id="node20" href="$classJSBSim_1_1FGRocket.html#acdd441a759a096a360a1da53602343d8" title="Constructor. " alt="" coords="464,888,667,915"/>
+<area shape="rect" id="node21" href="$classJSBSim_1_1FGSummer.html#a1d8006dbbd5618442ddb9ca52bb86bdc" title="Constructor. " alt="" coords="450,1355,681,1381"/>
+<area shape="rect" id="node22" href="$classJSBSim_1_1FGTank.html#a3f836b4283222c9b9a1e556ab2205f5a" title="Constructor. " alt="" coords="478,604,653,631"/>
+<area shape="rect" id="node23" href="$classJSBSim_1_1FGTurbine.html#a19ece223c6dc819db12351f6a5e371c6" title="A lag filter. " alt="" coords="476,1172,655,1199"/>
+<area shape="rect" id="node24" href="$classJSBSim_1_1FGTurboProp.html#ab8e468ac293692df96698709be40cb14" title="Destructor. " alt="" coords="487,1406,643,1447"/>
+<area shape="rect" id="node25" href="$classJSBSim_1_1Element.html#a4c7e6fd02c436b01fbb94cb5f043ba97" title="Returns the name of the file in which the element has been read. " alt="" coords="513,1121,617,1148"/>
+<area shape="rect" id="node28" href="$classJSBSim_1_1FGAircraft.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the aircraft. " alt="" coords="496,305,635,346"/>
+<area shape="rect" id="node29" href="$classJSBSim_1_1FGElectric.html#ad4e4a9b09b1ce922ec56141027403230" title="Constructor. " alt="" coords="496,771,635,813"/>
+<area shape="rect" id="node30" href="$classJSBSim_1_1FGMassBalance.html#a764e8c6d39b827d2ad03f570a2fc37e6" title="Runs the Mass Balance model; called by the Executive Can pass in a value indicating if the executive ..." alt="" coords="461,188,669,215"/>
+<area shape="rect" id="node31" href="$classJSBSim_1_1FGNozzle.html#adaf0d6311aefa75f531c2302dc23b27c" title="Constructor. " alt="" coords="463,655,667,681"/>
+<area shape="rect" id="node32" href="$classJSBSim_1_1FGPropulsion.html#a09460dfe59ea9b008adf448292d26bbf" title="Loads the propulsion system (engine[s] and tank[s]). " alt="" coords="486,706,645,747"/>
+<area shape="rect" id="node34" href="$classJSBSim_1_1FGAerodynamics.html#a5ee98f43a4000cfa1190bdcfe1ff70c4" title="Loads the Aerodynamics model. " alt="" coords="473,1523,657,1565"/>
+<area shape="rect" id="node36" href="$classJSBSim_1_1FGFDMExec.html#a73e9346f1da3130b73299159f4144d35" title="Retrieves property or properties matching the supplied string. " alt="" coords="484,57,647,98"/>
+<area shape="rect" id="node37" href="$classJSBSim_1_1FGThruster.html#a18899cd20a4e7ceec9427ea4b4bdff4a" title="Constructor. " alt="" coords="492,122,639,163"/>
+<area shape="rect" id="node39" href="$classJSBSim_1_1FGGroundReactions.html#a9df30f127d68cac80b72996975b60653" title="Sets the steering command. " alt="" coords="465,1589,666,1630"/>
+<area shape="rect" id="node40" href="$classJSBSim_1_1FGTable.html#a6408aca30b15b5fbee7544f0e322263b" title="The constructor for a table. " alt="" coords="474,1655,657,1681"/>
+</map>

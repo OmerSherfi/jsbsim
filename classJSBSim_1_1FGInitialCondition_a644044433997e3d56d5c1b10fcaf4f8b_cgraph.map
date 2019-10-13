@@ -1,0 +1,4 @@
+<map id="GetAltitudeAGLFtIC" name="GetAltitudeAGLFtIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#a05481f3155aa12f45a0a9678c451e777" title="Get the altitude above ground level. " alt="" coords="197,5,344,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGLocation.html#ae629d2b1380ce6c7986cb98191521a21" title="Get terrain contact point information below the current location. " alt="" coords="392,5,539,47"/>
+</map>

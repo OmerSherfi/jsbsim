@@ -1,0 +1,9 @@
+<map id="GetLongitudeDegIC" name="GetLongitudeDegIC">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGLocation.html#a86c9d110a64ec49fc19448ee268035ef" title="Get the longitude. " alt="" coords="211,5,358,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGInitialCondition.html#aed6e3b6b8e0d347cde695cfbc65ca55a" title="Gets the initial altitude above sea level. " alt="" coords="213,122,356,149"/>
+<area shape="rect" id="node5" href="$classJSBSim_1_1FGInitialCondition.html#a644044433997e3d56d5c1b10fcaf4f8b" title="Gets the initial altitude above ground level. " alt="" coords="213,71,357,98"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGInitialCondition.html#a9b141f4fc94bac705b0b3accb6cb0fe3" title="Gets the initial terrain elevation. " alt="" coords="200,173,369,199"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGFDMExec.html#a93876fb8e8a2302e3880f9ebfb3ce6d5" title="Returns the FGInertial pointer. " alt="" coords="417,121,576,163"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGLocation.html#a05481f3155aa12f45a0a9678c451e777" title="Get the altitude above ground level. " alt="" coords="423,56,570,97"/>
+<area shape="rect" id="node8" href="$classJSBSim_1_1FGLocation.html#ad58b0dd5daece07ab1eb41b9b1268360" title="Get the local terrain radius. " alt="" coords="423,187,570,228"/>
+</map>

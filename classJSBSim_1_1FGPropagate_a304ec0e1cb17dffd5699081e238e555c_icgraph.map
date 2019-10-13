@@ -1,0 +1,5 @@
+<map id="Gethdot" name="Gethdot">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGOutputFG.html#a7bcd6998ba3f89b5c9cb94f37ba4e8ad" title="Evaluate the output directives from an XML file. " alt="" coords="404,5,559,47"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGPropagate.html#a717455e1506aff0101e7dd56abb60ee6" title="Retrieves the Euler angles (in degrees) that define the vehicle orientation. " alt="" coords="128,38,231,65"/>
+<area shape="rect" id="node4" href="$classJSBSim_1_1FGPropagate.html#adf79ff2ea1194b5f50fe281d04db8630" title="Retrieves the Euler angles that define the vehicle orientation. " alt="" coords="279,38,356,65"/>
+</map>

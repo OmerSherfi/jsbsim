@@ -1,0 +1,7 @@
+<map id="FGFilter" name="FGFilter">
+<area shape="rect" id="node2" href="$classJSBSim_1_1FGFCSComponent.html" title="Base class for JSBSim Flight Control System Components. " alt="" coords="589,181,728,208"/>
+<area shape="rect" id="node3" href="$classJSBSim_1_1FGJSBBase.html" title="JSBSim Base class. " alt="" coords="289,64,381,91"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,31,64,57"/>
+<area shape="rect" id="node6" href="$classJSBSim_1_1FGPropertyManager.html" title="FGPropertyManager" alt="" coords="261,181,410,208"/>
+<area shape="rect" id="node7" href="$classJSBSim_1_1FGFCS.html" title="Encapsulates the Flight Control System (FCS) functionality. " alt="" coords="303,232,367,259"/>
+</map>
